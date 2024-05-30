@@ -19,8 +19,8 @@ namespace Remood_Place
                 option.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
             }).AddCookie().AddGoogle(GoogleDefaults.AuthenticationScheme, option =>
             {
-                option.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
-                option.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
+                //option.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
+                //option.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
 
             });
 
