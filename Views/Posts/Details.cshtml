@@ -1,0 +1,108 @@
+﻿@model Remood_Place.Models.Post
+
+@{
+    Layout = "_headerfooter";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <link rel="stylesheet" href="/postdetails/details.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <style>
+        .description-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body class="packageBody">
+    <section class="py-5">
+        <div class="container">
+            <div class="row gx-5 my-2">
+                <aside class="col-lg-6 order-lg-2">
+                    <div class="border rounded-4 mb-3 d-flex justify-content-center">
+                        <a data-fslightbox="mygalley" class="rounded-4" target="_blank" data-type="image" href="@Model.ImagePaths[0]">
+                            <img id="edit_img" style="max-width: 100%; max-height: 100vh; margin: auto;" class="rounded-4 fit" src="@Model.ImagePaths[0]" />
+                        </a>
+                    </div>
+                    <div class="d-flex justify-content-center mb-3">
+                        @foreach (var item in Model.ImagePaths)
+                        {
+                            <a data-fslightbox="mygalley" class="border mx-1 rounded-2 item-thumb" data-type="image" href="@item">
+                                <img width="60" height="60" class="rounded-2" src="@item" />
+                            </a>
+                        }
+                    </div>
+                </aside>
+                <main class="col-lg-6 order-lg-1">
+                    <div class="ps-lg-3">
+                        <h4 class="title text-dark">
+                            @Model.Name
+                        </h4>
+                        <hr>
+
+                        <div class="mb-3">
+                            <span class="h5">Description</span>
+                        </div>
+
+                        <p class="description-box">
+                            @Model.Description
+                        </p>
+
+                        <div class="row">
+                            <dt class="col-3">Phone:</dt>
+                            <dd class="col-9">@Model.PhoneNumber</dd>
+
+                            <dt class="col-3">Category:</dt>
+                            <dd class="col-9">@Model.Category</dd>
+
+                            <dt class="col-3">Vips:</dt>
+                            <dd class="col-9">@Model.Vibs</dd>
+
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                            <div class="d-flex justify-content-center">
+                                <a href="@Model.Fb_Link" class="container-fluid facebook col-12 my-2">
+                                    <svg viewBox="0 0 16 16" class="bi bi-facebook" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+                                    </svg>
+                                    <span class="align-self-center">Facebook</span>
+                                </a>
+                            </div>
+
+                            <div class="d-flex justify-content-center my-2">
+                                <a href="@Model.Location" class="location col-12">
+                                    <img id="location_img" src="/postdetails/map.png" alt="" class="img-fluid" style="max-width: 50px;">
+                                    <span class="align-self-center ms-2">Location</span>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.item-thumb').click(function (event) {
+                event.preventDefault();
+                var imagePath = $(this).attr('href');
+                $('#edit_img').attr('src', imagePath);
+            });
+        });
+    </script>
+</body>
+</html>
+

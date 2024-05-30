@@ -1,0 +1,256 @@
+﻿@{
+    ViewData["Title"] = "Mypackage";
+    Layout = "_headerfooter";
+
+    var package = ViewBag.packagesfavuser;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- You may need to include Font Awesome if you're using its icons -->
+    <style>
+
+        .form-control.col-12.w-100 {
+            width: 100%;
+        }
+
+        .button_back {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #cc7a00;
+            border: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+            cursor: pointer;
+            transition-duration: 0.3s;
+            overflow: hidden;
+        }
+
+        .svgIcon {
+            transition-duration: 0.3s;
+        }
+
+            .svgIcon path {
+                fill: white;
+            }
+
+        .button_back:hover {
+            width: 140px;
+            border-radius: 50px;
+            transition-duration: 0.3s;
+            background-color: rgba(161, 149, 37, 0.712);
+            align-items: center;
+        }
+
+            .button_back:hover .svgIcon {
+                /* width: 20px; */
+                transition-duration: 0.3s;
+                transform: translateY(-200%);
+            }
+
+        .button_back::before {
+            position: absolute;
+            bottom: -20px;
+            content: "Create Package";
+            color: white;
+            /* transition-duration: .3s; */
+            font-size: 0px;
+        }
+
+        .button_back:hover::before {
+            font-size: 13px;
+            opacity: 1;
+            bottom: unset;
+            /* transform: translateY(-30px); */
+            transition-duration: 0.3s;
+        }
+
+        * {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .description-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            word-wrap: break-word;
+        }
+
+        @@media (max-width: 990px) {
+            #carouselContainer {
+                margin-top: 400px !important;
+            }
+        }
+
+        .header__menu {
+            /* أي تعديلات أخرى تريدها هنا */
+        }
+
+        .navbar-nav {
+            display: flex;
+            flex-wrap: wrap; /* تمكين الانتقال للسطر التالي إذا كانت العناصر أكثر مما يمكنها أن تتناسب في السطر الحالي */
+            justify-content: center; /* توسيط العناصر */
+        }
+
+        .nav-item {
+            width: auto; /* حدد عرضًا تلقائيًا لكل عنصر */
+            margin: 0 10px; /* هام: قم بتعيين هوامش للعناصر لتفادي التشابك بينها */
+        }
+
+        .nav-link {
+            /* أي تعديلات أخرى تريدها هنا */
+        }
+
+
+        #btn_package {
+            color: #000;
+            background-color: #fff;
+            border: none;
+            border-radius: 45px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            outline: none;
+        }
+
+            #btn_package:hover {
+                background-color: #FF5F00;
+                box-shadow: 0px 10px 10px black;
+                color: #fff;
+                transform: translateY(-3px);
+            }
+
+            #btn_package:active {
+                transform: translateY(-1px);
+            }
+
+        #card-data {
+            box-shadow: 0px 20px 25px rgba(10, 49, 75, 0.445);
+        }
+
+        .card:hover {
+            box-shadow: 0px 0px 20px orange;
+            transform: scale(1.02);
+        }
+
+        .card {
+            transition: box-shadow 1s ease 0s, transform 1s ease 0s; /* تأثير تدريجي على خاصيتي الظل والتحويل على مدى 2 ثانية */
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+</head>
+<body class="packageBody">
+    <div class="row m-0">
+        @foreach (var item in package)
+        {
+            <div class="container col-lg-4">
+                <div class="my-3 align-text-center">
+                    <div class="col-lg-12">
+                        <div class="card" style="background-color: #F6F1F1; border: 2px solid #002379; border-radius: 15px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);">
+                            <div class="card-header" style="background-color: #146C94; border-radius: 15px 15px 0 0; font-size: 24px; font-weight: bold; color: white; text-align: left;">
+                                <h3 class="col-12 mt-2" style="text-align: center; color: white; font-size: 26px; font-weight: bold; text-transform: uppercase; padding-bottom: 5px;">@item.Name</h3>
+                            </div>
+                            <div class="card-body" style="height: 150px;">
+                                <p class="card-text" style="color: #333;">@(item.Description.Length > 200 ? item.Description.Substring(0, 200) + "..." : item.Description)</p>
+                            </div>
+                            <div id="carouselExampleIndicators-@item.ID" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    @for (var i = 0; i < item.packagePosts.Count; i++)
+                                    {
+                                        <li data-target="#carouselExampleIndicators-@item.ID" data-slide-to="@i" class="@if (i == 0) {
+                               <text>active</text>
+}"></li>
+                                    }
+                                </ol>
+                                <div class="carousel-inner">
+                                    @{
+                                        var isFirst = true; // flag to mark the first image as active
+                                    }
+                                    @foreach (var posts in item.packagePosts)
+                                    {
+                                        <div class="carousel-item @(isFirst ? "active" : "")">
+                                            <img src="@posts.Post.ImagePaths[0]" height="250px !important" class="d-block w-100" alt="...">
+                                        </div>
+                                        isFirst = false; // set flag to false after first iteration
+                                    }
+                                </div>
+
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators-@item.ID" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators-@item.ID" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </a>
+                            </div>
+                            <br />
+                            <form action="@Url.Action("Edit", "Package")" method="get">
+                                <input type="hidden" name="id" value="@item.ID" />
+                                <button type="submit" class="btn btn-primary" style="width: 100%;">Edit</button>
+                            </form>
+
+                            <form asp-action="Delete" asp-controller="Package" method="post">
+                                <input type="hidden" name="id" value="@item.ID" />
+                                <button type="submit" class="col-12 btn btn-danger" id="btn_package">
+                                    Delete
+                                </button>
+                            </form>
+
+                            <form action="@Url.Action("Details", "Package")" method="get">
+                                <input type="hidden" name="id" value="@item.ID" />
+                                <button type="submit" class="btn btn-warning" style="width: 100%; border-radius: 0 0 15px 15px;">See More..</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+        }
+
+    </div>
+
+    <script>
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.querySelector('form');
+            if (!form) {
+                console.log('Form not found!');
+                return;
+            }
+
+            form.addEventListener('submit', function (event) {
+                event.preventDefault();
+                console.log('Form submission intercepted');
+                var containerDiv = document.getElementById('container-div');
+                if (containerDiv) {
+                    containerDiv.style.marginTop = '15rem';
+                    console.log('Margin changed to 15rem');
+                } else {
+                    console.log('Container div not found!');
+                }
+                this.submit();
+            });
+        });
+    </script>
+
+    <!-- from abdallah design the card package  -->
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>

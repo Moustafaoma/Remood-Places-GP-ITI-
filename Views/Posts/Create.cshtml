@@ -1,0 +1,127 @@
+﻿@model Remood_Place.Models.Post
+
+@{
+    var ahmed = Model;
+    Layout = "_headerfooter";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>5K & 10K Registration Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="/createpost/create.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="testbox d-block" style="z-index:0">
+       <form asp-action="Create" enctype="multipart/form-data" method="post">
+            <div class="banner">
+            </div>
+            <p>To Create A Post</p>
+            <div class="form-group">
+                <input hidden asp-for="UserId" class="form-control" value="@Model.UserId" />
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input hidden asp-for="AppUser" class="form-control" value="@Model.AppUser" />
+                <span asp-validation-for="AppUser" class="text-danger"></span>
+            </div>
+            <div class="item">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="item">
+                <label asp-for="Bio" class="control-label"></label>
+                <input asp-for="Bio" class="form-control" />
+                <span asp-validation-for="Bio" class="text-danger"></span>
+            </div>
+            <div class="item">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="item">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="item">
+                <label asp-for="Location" class="control-label"></label>
+                <input type="url" asp-for="Location" class="form-control" />
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+            <div class="item">
+                <label asp-for="Fb_Link" class="control-label"></label>
+                <input type="url" asp-for="Fb_Link" class="form-control" />
+                <span asp-validation-for="Fb_Link" class="text-danger"></span>
+            </div>
+             <div class="item">
+                 <label asp-for="Category"></label>
+                 <select asp-for="Category" class="form-control" asp-items="Html.GetEnumSelectList<Category>()"></select>
+                 <span asp-validation-for="Category" class="text-danger"></span>
+             </div>
+             <div class="item ">
+                 <label asp-for="Vibs" class="control-label"></label>
+                 <select asp-for="Vibs" class="form-control" asp-items="Html.GetEnumSelectList<Vibs>()"></select>
+                 <span asp-validation-for="Vibs" class="text-danger"></span>
+             </div>
+            @if (User.IsInRole("Admin"))
+            {
+                <div class="item ">
+                     <label asp-for="State" class="control-label"></label>
+                     <select asp-for="State" class="form-control" asp-items="Html.GetEnumSelectList<State>()"></select>
+                     <span asp-validation-for="State" class="text-danger"></span>
+                </div>
+                <div class="item">
+                    <label asp-for="DiscountPercentage" class="control-label"></label>
+                    <input type="range" asp-for="DiscountPercentage" class="form-control" min="0" max="100" step="5" value="0" onchange="updateValue(this.value)" />
+                    <span id="discountPercentageValue" class="ml-2">0</span> <!-- This span will display the current value -->
+                    <span asp-validation-for="DiscountPercentage" class="text-danger"></span>
+                </div>
+            }
+            else if (User.IsInRole("Super"))
+            {
+                <div class="item ">
+                    <label asp-for="State" class="control-label"></label>
+                    <select asp-for="State" class="form-control" asp-items="Html.GetEnumSelectList<State>()"></select>
+                    <span asp-validation-for="State" class="text-danger"></span>
+                </div>
+                <div class="item">
+                    <label asp-for="DiscountPercentage" class="control-label"></label>
+                    <input type="range" asp-for="DiscountPercentage" class="form-control" min="0" max="100" step="5" value="0" onchange="updateValue(this.value)" />
+                    <span id="discountPercentageValue" class="ml-2">0</span> <!-- This span will display the current value -->
+                    <span asp-validation-for="DiscountPercentage" class="text-danger"></span>
+                </div>
+            }
+            <div class="grid w-full max-w-xs items-center gap-1.5">
+                <label asp-for="ImagePaths" class="control-label"></label>
+                <input type="file" name="images" multiple class="form-control" />
+                <span asp-validation-for="ImagePaths" class="text-danger"></span>
+            </div>
+            <div class="btn-block">
+                <input type="submit" value="Create"  />
+            </div>
+        </form>
+    </div>
+    <a asp-action="Index">
+        <button class="button_back" style="position:fixed !important; bottom:20px !important;right:20px !important;z-index:666 !important">
+            <svg class="svgIcon" viewBox="0 0 384 512">
+                <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+            </svg>
+        </button>
+    </a>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+<script>
+    function updateValue(newValue) {
+        document.getElementById('discountPercentageValue').textContent = newValue;
+    }
+</script>

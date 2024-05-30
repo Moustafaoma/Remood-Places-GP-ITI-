@@ -1,0 +1,255 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Remood_Place
+build_property.RootNamespace = Remood_Place
+build_property.ProjectDir = D:\Back -End courses\My Project CV and GitHup\Remood Places\GP-Project\Remood_Place\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Back -End courses\My Project CV and GitHup\Remood Places\GP-Project\Remood_Place
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/aboutus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYWJvdXR1cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/aboutus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYWJvdXR1c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Admin/feedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZmVlZGJhY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Admin/ReviewPackage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmV2aWV3UGFja2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/contactus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY29udGFjdHVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Dashbard_Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJhcmRfQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Dashbard_Admin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJhcmRfQWRtaW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Dashbard_Admin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJhcmRfQWRtaW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Dashbard_Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJhcmRfQWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Dashbard_Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJhcmRfQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Dashbord_Super/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvcmRfU3VwZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Dashbord_Super/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvcmRfU3VwZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Dashbord_Super/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvcmRfU3VwZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Dashbord_Super/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvcmRfU3VwZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Dashbord_Super/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvcmRfU3VwZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Dashbord_User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvcmRfVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Dashbord_User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvcmRfVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Homee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Homee/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/informationuser/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW5mb3JtYXRpb251c2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Package/AddPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxBZGRQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Package/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Package/CreateFavouritepac.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxDcmVhdGVGYXZvdXJpdGVwYWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Package/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Package/DeleteComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxEZWxldGVDb21tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Package/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Package/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Package/EditComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxFZGl0Q29tbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Package/Editposts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxFZGl0cG9zdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Package/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Package/FavouriteUserpackage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxGYXZvdXJpdGVVc2VycGFja2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Package/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Package/Mypackage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxNeXBhY2thZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Package/RemoveFavouritepac.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxSZW1vdmVGYXZvdXJpdGVwYWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Posts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Posts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Posts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Posts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Posts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Posts/Myposts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcTXlwb3N0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Posts/PostsOfUserLove.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcUG9zdHNPZlVzZXJMb3ZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Shared/_headerfooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9oZWFkZXJmb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gp589latbt
+
+[D:/Back -End courses/My Project CV and GitHup/Remood Places/GP-Project/Remood_Place/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wpaagedczi

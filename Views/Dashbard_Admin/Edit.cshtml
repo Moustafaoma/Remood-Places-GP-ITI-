@@ -1,0 +1,104 @@
+﻿@model Microsoft.AspNetCore.Identity.IdentityUser;
+
+@{
+	ViewData["Title"] = "Edit";
+	Layout = "_headerfooter";
+}
+
+@* <h1>Edit</h1>
+<h4>Post</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Edit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div> *@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RegistrationForm_v1 by Colorlib</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- MATERIAL DESIGN ICONIC FONT -->
+	<link rel="stylesheet" href="/editadmin/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="/editadmin/edit.css">
+</head>
+
+<body>
+	<div class="wrapper" style="background-image: url('/editadmin/bg-registration-form-1.jpg') ;">
+		<div class="inner" style="width: 1000px;">
+			<div class="image-holder">
+				<img src="/editadmin/form.jpg" style="height: 450px; width: 400px;" alt="">
+			</div>
+			<form asp-action="Edit">
+				<h3>Edit Admin</h3>
+
+				<div class="form-wrapper">
+					@* 					<input type="text" placeholder="Username" class="form-control">
+					<i class="zmdi zmdi-account"></i> *@
+					<label asp-for="UserName" class="control-label"></label>
+					<input asp-for="UserName" class="form-control" />
+					<span asp-validation-for="UserName" class="text-danger"></span>
+				</div>
+				<div class="form-wrapper">
+					@* <input type="text" placeholder="Email Address" class="form-control">
+					<i class="zmdi zmdi-email"></i> *@
+					<label asp-for="Email" class="control-label"></label>
+					<input asp-for="Email" class="form-control" />
+					<span asp-validation-for="Email" class="text-danger"></span>
+				</div>
+				<div class="form-wrapper">
+					@* <input type="number" placeholder=" Phone Number" class="form-control">
+					<i class="zmdi zmdi-lock"></i> *@
+					<label asp-for="PhoneNumber" class="control-label"></label>
+					<input asp-for="PhoneNumber" class="form-control" />
+					<span asp-validation-for="PhoneNumber" class="text-danger"></span>
+				</div>
+				<button>
+					Edit
+					<i class="zmdi zmdi-arrow-right"></i>
+				</button>
+			</form>
+		</div>
+		<button class="button_back" id="backButton">
+			<svg class="svgIcon" viewBox="0 0 384 512">
+				<path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+			</svg>
+		</button>
+	</div>
+	<script>
+		document.getElementById("backButton").addEventListener("click", function () {
+			window.location.href = "/Dashbard_Admin/Index";
+		});
+	</script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

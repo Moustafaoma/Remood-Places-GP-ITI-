@@ -1,0 +1,195 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/wengsLayout.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        /* Custom styles */
+        /* Add your custom CSS here */
+    </style>
+</head>
+<body class="packageBody">
+    <header class="header bg-light">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-6">
+                    <div class="header__logo">
+                        <a href="/Post/Index"><img src="/img/logo.png" alt="" style="height: 50px;" class="img-fluid"></a>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-6">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                                <ul class="navbar-nav w-100 justify-content-between">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-controller="Package" asp-action="Index">Package</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-controller="contactus" asp-action="Index">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-controller="aboutus" asp-action="Index">About Us</a>
+                                    </li>
+
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-area="" asp-controller="Dashbard_Admin" asp-action="Index">Users</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-area="" asp-controller="Dashbord_User" asp-action="Index">Posts</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-area="" asp-controller="Admin" asp-action="ReviewPackage">ReviewPackage</a>
+                                        </li>
+                                    }
+                                    @if (User.IsInRole("SuperAdmin"))
+                                    {
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-area="" asp-controller="Dashbord_Super" asp-action="Index">Admins</a>
+                                        </li>
+                                    }
+                                    @if (SignInManager.IsSignedIn(User))
+                                    {
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-area="" asp-controller="informationuser" asp-action="Index">Hello @User.Identity?.Name!</a>
+
+                                        </li>
+                                        <li class="nav-item">
+                                            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                                <button type="submit" class="btn btn-link text-dark">Logout</button>
+                                            </form>
+                                        </li>
+                                    }
+                                    else
+                                    {
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-area="Identity" asp-page="/Account/Register">Register</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                                        </li>
+                                    }
+                                </ul>
+                            </div>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <div class="d-md-flex mt-5">
+        <!-- Left side of the layout -->
+        <div class="container-fluid col-lg-3 bg-light border rounded">
+            <div class="container col-12 bg-light border rounded my-3">
+                <div class="d-flex align-items-center">
+                    <img id="PImg" class="col-4" src="/img/user.png" alt="" style="width: 50px; border: 1px white solid; border-radius: 50%;">
+                    <h2 class="col-8 mt-2 text-center rounded">user name</h2>
+                </div>
+
+                <a href=""><img class="col-lg-8 mt-3 mx-auto d-block" src="~/img/go.jpg" alt="" style="max-width: 100%; height: auto; border-radius: 10px;"></a>
+
+                <div class="text-center border rounded my-3">
+                    <h3 class="bg-light text-primary p-3 rounded">filtering</h3>
+                    <div class="row">
+                        <div class="col-12 my-3">
+                            <select class="form-select col-12">
+                                <option selected disabled>Choose a category</option>
+                                <option value="1">Category 1</option>
+                                <option value="2">Category 2</option>
+                                <option value="3">Category 3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 my-3">
+                            <select class="form-select col-12">
+                                <option selected disabled>Choose a VIP</option>
+                                <option value="1">VIP 1</option>
+                                <option value="2">VIP 2</option>
+                                <option value="3">VIP 3</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main content -->
+        <div class="col-md-6 col-lg-6 d-flex">
+            <div id="packages" class="container col-12">
+                <div class="centered">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+
+        <!-- Right side of the layout -->
+        <div class="container-fluid col-lg-3 d-none d-md-block">
+            <!-- Right sidebar content -->
+            <div class="container bg-light p-3 rounded" style="margin-top: 30px;">
+                <div class="container-fluid d-flex justify-content-center">
+                    <a class="fancy col-12 text-center" href="/Posts/Index">
+                        <span class="top-key"></span>
+                        <span class="text">ADS</span>
+                        <span class="bottom-key-1"></span>
+                        <span class="bottom-key-2"></span>
+                    </a>
+                </div>
+                <div class="container bg-light my-3 p-3 rounded">
+                    <div class="container">
+                        <p>Offer 1</p>
+                        <a href="#">
+                            <img class="img-fluid rounded" src="/img/packges.jpg" alt="Offer 1">
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <p>Offer 2</p>
+                        <a href="#">
+                            <img class="img-fluid rounded" src="/img/packges.jpg" alt="Offer 2">
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <p>Offer 3</p>
+                        <a href="#">
+                            <img class="img-fluid rounded" src="/img/packges.jpg" alt="Offer 3">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

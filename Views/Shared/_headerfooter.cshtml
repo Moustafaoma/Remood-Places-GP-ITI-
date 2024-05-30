@@ -1,0 +1,247 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Remood Places</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Link to Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="/navbar/css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/navbar/logo-removebg-preview.png">
+
+    <style>
+        .packageBody {
+            background-image: url('/createpac/cc.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            width: 100%; /* عرض 100% من نافذة العرض */
+            height: 100%; /* ارتفاع 100% من نافذة العرض */
+        }
+        /* استايل الناف بار */
+        .navbar-dark {
+            background-color: #FF5F00 !important;
+            height: 85px; /* ارتفاع الناف بار */
+        }
+
+            .navbar-dark .navbar-nav .nav-link {
+                color: #FFFAE6 !important;
+                transition: transform 0.3s, box-shadow 0.3s;
+            }
+
+                .navbar-dark .navbar-nav .nav-link:hover {
+                    color: #002379 !important;
+                    background-color: #FF9F66 !important;
+                    transform: scale(1.1);
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                }
+
+        /* Your custom styles */
+        /* * {
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+                } */
+
+
+        /* Custom CSS for Navbar */
+        .navbar-nav .nav-link {
+            padding: 8px 15px;
+        }
+
+        .navbar-nav .nav-item:hover .nav-link {
+            color: #fff;
+            background-color: rgba(255, 165, 0, 0.8);
+            border-radius: 5px;
+        }
+
+        .dropdown-menu {
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+
+            .dropdown-menu .dropdown-item:hover {
+                background-color: rgba(255, 165, 0, 0.8);
+            }
+
+        /* خلفية الصفحة */
+        .ftco-section {
+            background-color: #FFFAE6;
+        }
+
+        .nav-link {
+            position: relative;
+            /*             color: #FFFAE6 !important;
+         */
+        }
+
+            .nav-link::after {
+                content: '';
+                position: absolute;
+                bottom: -3px; /* تحديد موقع الخط بالنسبة للنص */
+                left: 0;
+                width: 0;
+                height: 5px; /* ارتفاع الخط */
+                background-color: black;
+                transition: width 0.5s;
+            }
+
+            .nav-link:hover::after,
+            .nav-link:focus::after {
+                width: 100%; /* توسيع الخط عند التحويم أو النقر */
+            }
+
+        .nav-link {
+            font-size: 18px; /* Increase font size */
+            font-family: 'Arial', sans-serif; /* Change font family */
+            position: relative;
+        }
+
+            .nav-link::after {
+                content: '';
+                position: absolute;
+                bottom: -3px; /* تحديد موقع الخط بالنسبة للنص */
+                left: 50%; /* Start from center */
+                transform: translateX(-50%); /* Move the pseudo-element back by 50% of its own width */
+                width: 0;
+                height: 5px; /* ارتفاع الخط */
+                background-color: black;
+                transition: width 0.5s;
+            }
+
+
+            .nav-link:hover::after,
+            .nav-link:focus::after {
+                width: 80%; /* توسيع الخط عند التحويم أو النقر */
+            }
+    </style>
+
+</head>
+<body>
+
+    <section class="ftco-section packageBody">
+        <nav class="navbar-expand-lg">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- اللوجو -->
+                    <div class="col-md-2 align-self-center text-center">
+                        <a class="navbar-brand" href="/posts">
+                            <img src="/navbar/logo-removebg-preview.png" alt="" style="width: 100%;" class="mx-auto">
+                        </a>
+                    </div>
+                    <!-- الروابط الرئيسية -->
+                    <div class="col-md-7 text-center align-self-center">
+                        <ul class="nav justify-content-center">
+                            @* <li class="nav-item">
+                            <a class="nav-link" href="/" style="color: black; margin-right: 20px;">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="/package" style="color: black; margin-right: 20px;">Package</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="/aboutus" style="color: black; margin-right: 20px;">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="/contactus" style="color: black; margin-right: 20px;">Contact Us</a>
+                            </li> *@
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Dashbard_Admin" style="color: black; margin-right: 20px;" asp-action="Index">Users</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Dashbord_User" style="color: black; margin-right: 20px;" asp-action="Index">Posts</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Admin" style="color: black; margin-right: 20px;" asp-action="ReviewPackage">ReviewPackage</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Admin" style="color: black; margin-right: 20px;" asp-action="feedback">Feedback</a>
+                                </li>
+                            }
+                            else if (User.IsInRole("SuperAdmin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Dashbord_Super" style="color: black; margin-right: 20px;" asp-action="Index">Admins</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item mr-3">
+                                    <a class="nav-link active" asp-area="" asp-controller="Home" style="color: black; margin-right: 20px;" asp-action="Index">Home</a>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link" asp-controller="Package" style="color: black; margin-right: 20px;" asp-action="Index">Package</a>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link" asp-controller="aboutus" style="color: black; margin-right: 20px;" asp-action="Index">About Us</a>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link" asp-controller="contactus" style="color: black; margin-right: 20px;" asp-action="Index">Contact Us</a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                    <!-- الروابط الإضافية -->
+                    <div class="col-md-3 align-self-center">
+                        <ul class="nav justify-content-end">
+                            @if (SignInManager.IsSignedIn(User))
+                            {
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" style="color:black" ;
+                                       aria-haspopup="true" aria-expanded="false">
+                                        Profile
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                        <a class="dropdown-item" asp-area="" asp-controller="informationuser" asp-action="Index">Profile</a>
+                                        @if (User.IsInRole("User"))
+                                        {
+                                            <a class="dropdown-item" asp-area="" asp-controller="Posts" asp-action="Myposts">My Posts</a>
+                                            <a class="dropdown-item" asp-area="" asp-controller="Package" asp-action="Mypackage">My Packages</a>
+                                            <a class="dropdown-item" asp-area="" asp-controller="Posts" asp-action="PostsOfUserLove">Favourite Post</a>
+                                            <a class="dropdown-item" asp-area="" asp-controller="Package" asp-action="FavouriteUserpackage">Favourite Package</a>
+
+                                        }
+                                        <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                            <button type="submit" class="dropdown-item">Logout</button>
+                                        </form>
+                                    </div>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Identity" asp-page="/Account/Register" style="color:black">Register</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Identity" asp-page="/Account/Login" style="color:black">Login</a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- END nav -->
+        @RenderBody()
+    </section>
+
+
+    <script src="/navbar/js/jquery.min.js"></script>
+    <script src="/navbar/js/popper.js"></script>
+    <script src="/navbar/js/bootstrap.min.js"></script>
+    <script src="/navbar/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <style>
+        .input {
+            margin: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-structor">
+        <!-- Registration Section -->
+        <div class="signup">
+            <h2 class="form-title" id="signup"><span>or</span>Sign up</h2>
+            <form id="signup-form" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-holder">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input asp-for="Input.Email" class="input form-control" id="signup-email" autocomplete="username" aria-required="true" placeholder="Email" required />
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+
+                <input asp-for="Input.Password" class="input form-control" id="signup-password" autocomplete="new-password" aria-required="true" placeholder="Password" required />
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+
+                <input asp-for="Input.ConfirmPassword" class="input form-control" id="signup-confirm-password" autocomplete="new-password" aria-required="true" placeholder="Confirm Password" required />
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+
+                <button type="submit" class="submit-btn btn btn-primary" style="margin-left: 31px;width:190px; id="signup-btn">Sign up</button>
+            </form>
+
+            <!-- Google Button -->
+            <div class="text-center mt-3 " >
+                @if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                {
+                    <div>
+                        <p>
+                            There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">article about setting up this ASP.NET application to support logging in via external services</a>.
+                        </p>
+                    </div>
+                }
+                else
+                {
+                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                        <div>
+                            <p>
+                                @foreach (var provider in Model.ExternalLogins!)
+                                {
+                                    <button type="submit" class="btn btn-primary btn-block me-2 mb-2" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                }
+                            </p>
+                        </div>
+                    </form>
+                }
+            </div>
+
+
+        </div>
+
+        <!-- Login Section -->
+        <div class="login slide-up">
+            <div class="center">
+                <a class="nav-link form-title" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
+
+@*                 <a href="http://localhost:5007/Identity/Account/Login" class="form-title" id="login"><span>or</span>Log in</a>
+ *@                <!-- Your existing login form can go here -->
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="/js/login.js"></script>
+</body>
+</html>

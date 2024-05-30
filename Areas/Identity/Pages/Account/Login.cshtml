@@ -1,0 +1,63 @@
+﻿@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Log in";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <style>
+        .input {
+            margin: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-structor">
+        <!-- Registration Section -->
+        <!-- Registration Section -->
+        <div class="signup">
+            <h2 class="form-title" id="signup"><span>or</span>Sign In</h2>
+            <form id="signup-form" style="height:auto" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-holder">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input asp-for="Input.Email" class="input form-control" id="signup-email" autocomplete="username" aria-required="true" placeholder="Email" required />
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+
+                <input asp-for="Input.Password" class="input form-control" id="signup-password" autocomplete="new-password" aria-required="true" placeholder="Password" required />
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+
+                <div class="form-check" style="margin-left:25px;">
+                    <input asp-for="Input.RememberMe" class="form-check-input" id="signup-remember-me" style="margin-left:-16px;     />
+                    <label class="form-check-label" for="signup-remember-me" style="margin-left:35px;">Remember Me</label>
+                </div>
+
+                <button type="submit" class="submit-btn btn btn-primary" id="signup-btn" style="margin-left: 31px; width:190px;
+">
+                    Log In
+                </button>
+            </form>
+        </div>
+
+        <!-- Login Section -->
+        <div class="login slide-up">
+            <div class="center">
+                <a class="nav-link form-title" id="login" asp-area="Identity" asp-page="/Account/Register">Register</a>
+
+@*                 <a href="http://localhost:5007/Identity/Account/Register" class="form-title" id="login"><span>or</span>Register</a>
+ *@                <!-- Your existing login form can go here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,2197 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Remood_Place.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Remood_Place.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\CreateAdminInSuper\\bg-registration-form-1.jpg",
+      "PackagePath": "staticwebassets\\CreateAdminInSuper\\bg-registration-form-1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\CreateAdminInSuper\\form.jpg",
+      "PackagePath": "staticwebassets\\CreateAdminInSuper\\form.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\CreateAdminInSuper\\style.css",
+      "PackagePath": "staticwebassets\\CreateAdminInSuper\\style.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\Dashbord.html",
+      "PackagePath": "staticwebassets\\Dashbord.html"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\OffersImages\\1417.jpg",
+      "PackagePath": "staticwebassets\\OffersImages\\1417.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\OffersImages\\m010t0589_f_banner_24nov22.jpg",
+      "PackagePath": "staticwebassets\\OffersImages\\m010t0589_f_banner_24nov22.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\OffersImages\\m028t0122_c_offer_03aug22.jpg",
+      "PackagePath": "staticwebassets\\OffersImages\\m028t0122_c_offer_03aug22.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\Source\\OwlCarousel2-2.3.4.zip",
+      "PackagePath": "staticwebassets\\Source\\OwlCarousel2-2.3.4.zip"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\Source\\SlickNav-master.zip",
+      "PackagePath": "staticwebassets\\Source\\SlickNav-master.zip"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\Source\\bootstrap-4.4.1-dist.zip",
+      "PackagePath": "staticwebassets\\Source\\bootstrap-4.4.1-dist.zip"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\Source\\font-awesome-4.7.0.zip",
+      "PackagePath": "staticwebassets\\Source\\font-awesome-4.7.0.zip"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\Source\\jquery-nice-select-1.1.0.zip",
+      "PackagePath": "staticwebassets\\Source\\jquery-nice-select-1.1.0.zip"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\Source\\jquery-ui-1.12.1.zip",
+      "PackagePath": "staticwebassets\\Source\\jquery-ui-1.12.1.zip"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\Source\\sass.zip",
+      "PackagePath": "staticwebassets\\Source\\sass.zip"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\Page-2.css",
+      "PackagePath": "staticwebassets\\aboutus\\Page-2.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\0fd3416c.jpeg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\0fd3416c.jpeg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\1.svg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\1.svg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\1014398-e4acaa62.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\1014398-e4acaa62.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\1014398.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\1014398.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\10302417-4019661c.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\10302417-4019661c.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\10302417.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\10302417.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\10332393-9d190ceb.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\10332393-9d190ceb.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\10332393.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\10332393.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\1388394-d62e322b.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\1388394-d62e322b.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\1388394.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\1388394.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\1436404-744c3b8e.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\1436404-744c3b8e.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\1436404.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\1436404.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\2812586-917e047f.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\2812586-917e047f.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\2812586.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\2812586.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\2939047-dc7238bf.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\2939047-dc7238bf.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\2939047.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\2939047.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\2996915-c85d6c7c.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\2996915-c85d6c7c.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\2996915.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\2996915.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\3405554-a08c525d.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\3405554-a08c525d.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\3405554.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\3405554.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\4457024-0e170e4c.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\4457024-0e170e4c.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\4457024.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\4457024.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\50e0d047495bb108f5d08460962934761237d6ed5a4c704c7c287cd1924ec751_1280.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\50e0d047495bb108f5d08460962934761237d6ed5a4c704c7c287cd1924ec751_1280.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\5178414.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\5178414.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\51e6dd454354b108f5d08460962934761237d6ed5a4c704c7c287cd1924ec751_1280.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\51e6dd454354b108f5d08460962934761237d6ed5a4c704c7c287cd1924ec751_1280.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\57476.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\57476.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\57e1d14a4c51ac14f6da8c7dda79367d1d38d6ed5b586c4870267cd39248c65ab1_1280.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\57e1d14a4c51ac14f6da8c7dda79367d1d38d6ed5b586c4870267cd39248c65ab1_1280.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\596092-2495c328.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\596092-2495c328.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\596092.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\596092.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\6646730-387c719a.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\6646730-387c719a.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\6646730.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\6646730.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\68f64b9d.jpeg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\68f64b9d.jpeg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\7350738-85cdd40a.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\7350738-85cdd40a.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\7350738.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\7350738.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\7897-min.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\7897-min.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\840781-6ced8a49.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\840781-6ced8a49.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\840781.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\840781.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\8ad73f3c.jpeg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\8ad73f3c.jpeg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\Untitled-2.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\Untitled-2.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\alpalde.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\alpalde.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\asian-businessman-leather-wristwatch.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\asian-businessman-leather-wristwatch.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\bn.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\bn.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\ca1.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\ca1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\ca2.webp",
+      "PackagePath": "staticwebassets\\aboutus\\images\\ca2.webp"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\ca3.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\ca3.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\ca4.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\ca4.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\ca5.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\ca5.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\cafa.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\cafa.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\evga.svg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\evga.svg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\games.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\games.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\ggg.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\ggg.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\hggh-min.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\hggh-min.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\jh.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\jh.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\kj.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\kj.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\logo-amazon.svg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\logo-amazon.svg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\mo-removebg-preview.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\mo-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\moaze.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\moaze.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\nightcairo.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\nightcairo.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\nn.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\nn.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\pac.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\pac.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\portrait-successful-man-having-stubble-posing-with-broad-smile-keeping-arms-folded.png",
+      "PackagePath": "staticwebassets\\aboutus\\images\\portrait-successful-man-having-stubble-posing-with-broad-smile-keeping-arms-folded.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\primads.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\primads.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\q.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\q.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\res.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\res.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\sony-logo.svg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\sony-logo.svg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\tesla-9.svg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\tesla-9.svg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\images\\x-min1.jpg",
+      "PackagePath": "staticwebassets\\aboutus\\images\\x-min1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\jquery.js",
+      "PackagePath": "staticwebassets\\aboutus\\jquery.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\nicepage.css",
+      "PackagePath": "staticwebassets\\aboutus\\nicepage.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\aboutus\\nicepage.js",
+      "PackagePath": "staticwebassets\\aboutus\\nicepage.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\css\\meanmenu.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\meanmenu.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\img\\breadcrumb-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\breadcrumb-bg.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\img\\cairo.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cairo.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\img\\feature-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature-bg.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\img\\team\\team-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-4.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\js\\form-validate.js",
+      "PackagePath": "staticwebassets\\assets\\js\\form-validate.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\js\\jquery-1.11.3.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-1.11.3.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\js\\jquery.countdown.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.countdown.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\js\\jquery.isotope-3.0.6.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.isotope-3.0.6.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\js\\jquery.meanmenu.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.meanmenu.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\js\\sticker.js",
+      "PackagePath": "staticwebassets\\assets\\js\\sticker.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\js\\waypoints.js",
+      "PackagePath": "staticwebassets\\assets\\js\\waypoints.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-brands-400.eot_",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.eot_"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-regular-400.eot_",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.eot_"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-solid-900.eot_",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.eot_"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\card\\card.css",
+      "PackagePath": "staticwebassets\\card\\card.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\card\\card.js",
+      "PackagePath": "staticwebassets\\card\\card.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\createpac\\c.jpg",
+      "PackagePath": "staticwebassets\\createpac\\c.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\createpac\\cc.jpg",
+      "PackagePath": "staticwebassets\\createpac\\cc.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\createpac\\ccc.jpg",
+      "PackagePath": "staticwebassets\\createpac\\ccc.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\createpac\\cover.jpg",
+      "PackagePath": "staticwebassets\\createpac\\cover.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\createpac\\coverrr.jpg",
+      "PackagePath": "staticwebassets\\createpac\\coverrr.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\createpac\\create.css",
+      "PackagePath": "staticwebassets\\createpac\\create.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\createpost\\cover.jpg",
+      "PackagePath": "staticwebassets\\createpost\\cover.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\createpost\\create.css",
+      "PackagePath": "staticwebassets\\createpost\\create.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\css\\elegant-icons.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\dashbord\\style.css",
+      "PackagePath": "staticwebassets\\dashbord\\style.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\detailsdescrapition\\cafe.jpg",
+      "PackagePath": "staticwebassets\\detailsdescrapition\\cafe.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\detailsdescrapition\\cafee.jpg",
+      "PackagePath": "staticwebassets\\detailsdescrapition\\cafee.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\detailsdescrapition\\cover.jpg",
+      "PackagePath": "staticwebassets\\detailsdescrapition\\cover.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\detailsdescrapition\\coverr.jpg",
+      "PackagePath": "staticwebassets\\detailsdescrapition\\coverr.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\detailsdescrapition\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\detailsdescrapition\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\detailsdescrapition\\css\\style.css",
+      "PackagePath": "staticwebassets\\detailsdescrapition\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\detailsdescrapition\\games.jpg",
+      "PackagePath": "staticwebassets\\detailsdescrapition\\games.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\detailsdescrapition\\r.jpg",
+      "PackagePath": "staticwebassets\\detailsdescrapition\\r.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\detailsdescrapition\\shop.jpg",
+      "PackagePath": "staticwebassets\\detailsdescrapition\\shop.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\editadmin\\bg-registration-form-1.jpg",
+      "PackagePath": "staticwebassets\\editadmin\\bg-registration-form-1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\editadmin\\edit.css",
+      "PackagePath": "staticwebassets\\editadmin\\edit.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\editadmin\\form.jpg",
+      "PackagePath": "staticwebassets\\editadmin\\form.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\erro\\style.css",
+      "PackagePath": "staticwebassets\\erro\\style.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\footer\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\footer\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\footer\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\footer\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\footer\\css\\style.css",
+      "PackagePath": "staticwebassets\\footer\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\footer\\fonts\\icomoon\\Read Me.txt",
+      "PackagePath": "staticwebassets\\footer\\fonts\\icomoon\\Read Me.txt"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\footer\\fonts\\icomoon\\demo-files\\demo.css",
+      "PackagePath": "staticwebassets\\footer\\fonts\\icomoon\\demo-files\\demo.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\footer\\fonts\\icomoon\\demo-files\\demo.js",
+      "PackagePath": "staticwebassets\\footer\\fonts\\icomoon\\demo-files\\demo.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\footer\\fonts\\icomoon\\demo.html",
+      "PackagePath": "staticwebassets\\footer\\fonts\\icomoon\\demo.html"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\footer\\fonts\\icomoon\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\footer\\fonts\\icomoon\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\footer\\fonts\\icomoon\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\footer\\fonts\\icomoon\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\footer\\fonts\\icomoon\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\footer\\fonts\\icomoon\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\footer\\fonts\\icomoon\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\footer\\fonts\\icomoon\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\footer\\fonts\\icomoon\\selection.json",
+      "PackagePath": "staticwebassets\\footer\\fonts\\icomoon\\selection.json"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\footer\\fonts\\icomoon\\style.css",
+      "PackagePath": "staticwebassets\\footer\\fonts\\icomoon\\style.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\footer\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\footer\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\footer\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\footer\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\footer\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\footer\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\032285df-d5bb-4871-8fa2-f4897e2c6510_IMG-20240419-WA0012.jpg",
+      "PackagePath": "staticwebassets\\images\\032285df-d5bb-4871-8fa2-f4897e2c6510_IMG-20240419-WA0012.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\055138c5-8fa0-4a21-ad3f-e8c46b273180_IMG-20240419-WA0019.jpg",
+      "PackagePath": "staticwebassets\\images\\055138c5-8fa0-4a21-ad3f-e8c46b273180_IMG-20240419-WA0019.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\05800e16-d52e-4c05-9a02-a8af80196729_enjoy-food-drinks-more (1).jpg",
+      "PackagePath": "staticwebassets\\images\\05800e16-d52e-4c05-9a02-a8af80196729_enjoy-food-drinks-more (1).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\05a3cd80-3cde-405c-9b11-bf8802dc0a86_IMG-20240419-WA0018.jpg",
+      "PackagePath": "staticwebassets\\images\\05a3cd80-3cde-405c-9b11-bf8802dc0a86_IMG-20240419-WA0018.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\06c3db7e-7978-4ff2-9712-68fce562d66b_enjoy-dining-drinking.jpg",
+      "PackagePath": "staticwebassets\\images\\06c3db7e-7978-4ff2-9712-68fce562d66b_enjoy-dining-drinking.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\07bd4f0a-3485-4c9d-a44a-3aee61db319a_IMG-20240419-WA0022.jpg",
+      "PackagePath": "staticwebassets\\images\\07bd4f0a-3485-4c9d-a44a-3aee61db319a_IMG-20240419-WA0022.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\0a8eb4a3-68b9-4f83-b14c-d564b021e15b_cafe-corniche-also-serving.jpg",
+      "PackagePath": "staticwebassets\\images\\0a8eb4a3-68b9-4f83-b14c-d564b021e15b_cafe-corniche-also-serving.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\0bc789f9-7841-44c4-9f35-cf23039d998d_photo1jpg.jpg",
+      "PackagePath": "staticwebassets\\images\\0bc789f9-7841-44c4-9f35-cf23039d998d_photo1jpg.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\0c81158d-66e3-48d5-a808-628899a5483f_scores-bar.jpg",
+      "PackagePath": "staticwebassets\\images\\0c81158d-66e3-48d5-a808-628899a5483f_scores-bar.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\0ef98599-a3d8-4acd-a2ab-0c992b666066_20190214-193417-largejpg.jpg",
+      "PackagePath": "staticwebassets\\images\\0ef98599-a3d8-4acd-a2ab-0c992b666066_20190214-193417-largejpg.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\10222eef-c37a-4502-8e27-9d1f39ba908b_cafe-corniche-also-serving.jpg",
+      "PackagePath": "staticwebassets\\images\\10222eef-c37a-4502-8e27-9d1f39ba908b_cafe-corniche-also-serving.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\12c68a2b-2171-469f-a88a-32eab0c08fcc_enjoy-food-drinks-more (1).jpg",
+      "PackagePath": "staticwebassets\\images\\12c68a2b-2171-469f-a88a-32eab0c08fcc_enjoy-food-drinks-more (1).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\171afb2d-af0c-49d0-9cac-862883c3dec6_IMG-20240419-WA0013.jpg",
+      "PackagePath": "staticwebassets\\images\\171afb2d-af0c-49d0-9cac-862883c3dec6_IMG-20240419-WA0013.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\189d91cb-d514-41cb-be52-a1935ce92382_IMG-20240419-WA0013.jpg",
+      "PackagePath": "staticwebassets\\images\\189d91cb-d514-41cb-be52-a1935ce92382_IMG-20240419-WA0013.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\19613186-d3a4-43e8-a246-c1a381253d7d_images.jfif",
+      "PackagePath": "staticwebassets\\images\\19613186-d3a4-43e8-a246-c1a381253d7d_images.jfif"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\1ab3a0f6-6abb-48ed-a835-7e4e50a0f8b6_scores-bar-upper-level.jpg",
+      "PackagePath": "staticwebassets\\images\\1ab3a0f6-6abb-48ed-a835-7e4e50a0f8b6_scores-bar-upper-level.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\1cab9bcf-6517-4c64-93d7-b9523b157f72_IMG-20240419-WA0012.jpg",
+      "PackagePath": "staticwebassets\\images\\1cab9bcf-6517-4c64-93d7-b9523b157f72_IMG-20240419-WA0012.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\2524b550-ffdb-4328-bc61-719a01b8dabe_enjoy-food-drinks-more (1).jpg",
+      "PackagePath": "staticwebassets\\images\\2524b550-ffdb-4328-bc61-719a01b8dabe_enjoy-food-drinks-more (1).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\252aae08-50bf-4351-a893-ddec5ae21501_al-dabke-lebanese-restaurant (3).jpg",
+      "PackagePath": "staticwebassets\\images\\252aae08-50bf-4351-a893-ddec5ae21501_al-dabke-lebanese-restaurant (3).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\256709ff-0fa7-488c-ba1e-6ca115c20941_el-fishawy-por-dentro.jpg",
+      "PackagePath": "staticwebassets\\images\\256709ff-0fa7-488c-ba1e-6ca115c20941_el-fishawy-por-dentro.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\26e8738c-cfc2-45a5-a4ae-21567c6ce0a7_now-you-can-enjoy-the.jpg",
+      "PackagePath": "staticwebassets\\images\\26e8738c-cfc2-45a5-a4ae-21567c6ce0a7_now-you-can-enjoy-the.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\297fc544-f11b-4a07-9623-64ec6d7a8c03_getlstd-property-photo.jpg",
+      "PackagePath": "staticwebassets\\images\\297fc544-f11b-4a07-9623-64ec6d7a8c03_getlstd-property-photo.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\319412a7-7012-4d4d-b986-89a3e7be6be7_photo0jpg.jpg",
+      "PackagePath": "staticwebassets\\images\\319412a7-7012-4d4d-b986-89a3e7be6be7_photo0jpg.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\3740eaab-7c8f-4e66-a94d-5d5acb0a7128_caption.jpg",
+      "PackagePath": "staticwebassets\\images\\3740eaab-7c8f-4e66-a94d-5d5acb0a7128_caption.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\397497fc-dec8-4826-a37f-99c31d335116_experience-the-authentic.jpg",
+      "PackagePath": "staticwebassets\\images\\397497fc-dec8-4826-a37f-99c31d335116_experience-the-authentic.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\3d351c6d-d4f0-4bc7-910f-51e1eab6c26a_coffee-bean-tea-leaf.jpg",
+      "PackagePath": "staticwebassets\\images\\3d351c6d-d4f0-4bc7-910f-51e1eab6c26a_coffee-bean-tea-leaf.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\3da0e15e-43ea-41d0-a41b-de4f3dcd2da0_lobby-lounge (1).jpg",
+      "PackagePath": "staticwebassets\\images\\3da0e15e-43ea-41d0-a41b-de4f3dcd2da0_lobby-lounge (1).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\3f1de730-d001-43d7-9de1-1dbb74bfae0f_image3.jpg",
+      "PackagePath": "staticwebassets\\images\\3f1de730-d001-43d7-9de1-1dbb74bfae0f_image3.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\41c74614-b7ae-440d-8f2c-5f6cb51452c9_img-20181024-222041-largejpg.jpg",
+      "PackagePath": "staticwebassets\\images\\41c74614-b7ae-440d-8f2c-5f6cb51452c9_img-20181024-222041-largejpg.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\428354e4-337c-466b-ada4-5fb732c296cb_caption (2).jpg",
+      "PackagePath": "staticwebassets\\images\\428354e4-337c-466b-ada4-5fb732c296cb_caption (2).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\428a1dea-cd15-4710-a0d6-f88fa2ff09cb_scores-bar.jpg",
+      "PackagePath": "staticwebassets\\images\\428a1dea-cd15-4710-a0d6-f88fa2ff09cb_scores-bar.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\4368d46d-dbd1-46b6-9bc0-5c71fb43b65f_scores-bar-upper-level.jpg",
+      "PackagePath": "staticwebassets\\images\\4368d46d-dbd1-46b6-9bc0-5c71fb43b65f_scores-bar-upper-level.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\45f78669-fdae-415a-82c0-042490394c74_IMG-20240419-WA0013.jpg",
+      "PackagePath": "staticwebassets\\images\\45f78669-fdae-415a-82c0-042490394c74_IMG-20240419-WA0013.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\496878e6-f0e3-45dd-bd0e-a937ffcef58e_IMG-20240419-WA0011.jpg",
+      "PackagePath": "staticwebassets\\images\\496878e6-f0e3-45dd-bd0e-a937ffcef58e_IMG-20240419-WA0011.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\4a33a60a-3007-45fd-b4a8-1842d1df8a92_IMG-20240419-WA0015.jpg",
+      "PackagePath": "staticwebassets\\images\\4a33a60a-3007-45fd-b4a8-1842d1df8a92_IMG-20240419-WA0015.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\4a3cece2-faea-48d2-a12b-cf4689dc8091_IMG-20240419-WA0010.jpg",
+      "PackagePath": "staticwebassets\\images\\4a3cece2-faea-48d2-a12b-cf4689dc8091_IMG-20240419-WA0010.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\4c2ba764-47d1-4f60-bc27-1e4956722cd3_image1.jpg",
+      "PackagePath": "staticwebassets\\images\\4c2ba764-47d1-4f60-bc27-1e4956722cd3_image1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\4f1f0f71-2ff0-4968-84fc-5fa0f2c321a1_caption (3).jpg",
+      "PackagePath": "staticwebassets\\images\\4f1f0f71-2ff0-4968-84fc-5fa0f2c321a1_caption (3).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\4f5b7f24-6e22-4389-b72e-386bff8cab74_caption.jpg",
+      "PackagePath": "staticwebassets\\images\\4f5b7f24-6e22-4389-b72e-386bff8cab74_caption.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\57591c50-c7d0-4930-a382-c957b1f759b1_cafe-corniche-also-serving.jpg",
+      "PackagePath": "staticwebassets\\images\\57591c50-c7d0-4930-a382-c957b1f759b1_cafe-corniche-also-serving.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\5820e4a1-898b-4b63-910a-9a33d1aed52f_variety-of-delicious.jpg",
+      "PackagePath": "staticwebassets\\images\\5820e4a1-898b-4b63-910a-9a33d1aed52f_variety-of-delicious.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\5849f366-e45a-4439-9400-139ca74017bb_the-blue-restaurant (1).jpg",
+      "PackagePath": "staticwebassets\\images\\5849f366-e45a-4439-9400-139ca74017bb_the-blue-restaurant (1).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\5dcd7102-f7fb-4aa4-b926-2854e9f2e5d3_IMG-20240419-WA0010.jpg",
+      "PackagePath": "staticwebassets\\images\\5dcd7102-f7fb-4aa4-b926-2854e9f2e5d3_IMG-20240419-WA0010.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\610215e6-e209-4387-84e0-649ccabb82b1_scores-bar-upper-level.jpg",
+      "PackagePath": "staticwebassets\\images\\610215e6-e209-4387-84e0-649ccabb82b1_scores-bar-upper-level.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\621ee411-842c-4daa-99c9-976e799b42e5_ta-img-20191130-145153.jpg",
+      "PackagePath": "staticwebassets\\images\\621ee411-842c-4daa-99c9-976e799b42e5_ta-img-20191130-145153.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\62760575-12a1-452a-a988-3c7c6f79ebc7_experience-the-authentic.jpg",
+      "PackagePath": "staticwebassets\\images\\62760575-12a1-452a-a988-3c7c6f79ebc7_experience-the-authentic.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\67857166-e03d-4453-a829-31e08995ee04_al-khal.jpg",
+      "PackagePath": "staticwebassets\\images\\67857166-e03d-4453-a829-31e08995ee04_al-khal.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\6788d80f-94f2-4aa9-819c-6834402aa3ee_al-dabke-lebanese-restaurant (1).jpg",
+      "PackagePath": "staticwebassets\\images\\6788d80f-94f2-4aa9-819c-6834402aa3ee_al-dabke-lebanese-restaurant (1).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\6ac52bf7-37e0-4a98-b02e-5b7edfbf0fa5_experience-the-authentic.jpg",
+      "PackagePath": "staticwebassets\\images\\6ac52bf7-37e0-4a98-b02e-5b7edfbf0fa5_experience-the-authentic.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\6c762d70-d4c8-49b7-926e-2a43202d04fd_city-stars-mall.jpg",
+      "PackagePath": "staticwebassets\\images\\6c762d70-d4c8-49b7-926e-2a43202d04fd_city-stars-mall.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\6df338bf-bd44-4313-87aa-c570c2a39e2e_view.jpg",
+      "PackagePath": "staticwebassets\\images\\6df338bf-bd44-4313-87aa-c570c2a39e2e_view.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\720a0c38-855d-4b39-82c0-44fa99936736_getlstd-property-photo.jpg",
+      "PackagePath": "staticwebassets\\images\\720a0c38-855d-4b39-82c0-44fa99936736_getlstd-property-photo.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\722bdf29-805d-4302-ad63-51e9b675299a_scores-bar.jpg",
+      "PackagePath": "staticwebassets\\images\\722bdf29-805d-4302-ad63-51e9b675299a_scores-bar.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\74231b3c-8bb9-478e-94f8-6e53e81d1c47_IMG-20240419-WA0011.jpg",
+      "PackagePath": "staticwebassets\\images\\74231b3c-8bb9-478e-94f8-6e53e81d1c47_IMG-20240419-WA0011.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\7437d546-fd07-4f2e-a7c2-d2031dc0672c_al-khal-egyptian-restaurant.jpg",
+      "PackagePath": "staticwebassets\\images\\7437d546-fd07-4f2e-a7c2-d2031dc0672c_al-khal-egyptian-restaurant.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\753a551b-3649-454e-9a86-861ac8c5e3e8_al-khal-egyptian-restaurant (2).jpg",
+      "PackagePath": "staticwebassets\\images\\753a551b-3649-454e-9a86-861ac8c5e3e8_al-khal-egyptian-restaurant (2).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\760b1d46-fc3b-4e5d-8a17-8b3cf36a37c1_20190214-193417-largejpg.jpg",
+      "PackagePath": "staticwebassets\\images\\760b1d46-fc3b-4e5d-8a17-8b3cf36a37c1_20190214-193417-largejpg.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\762b0daf-2ce1-4ea4-89ea-e65c808c8863_image2.jpg",
+      "PackagePath": "staticwebassets\\images\\762b0daf-2ce1-4ea4-89ea-e65c808c8863_image2.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\77555154-673a-44ac-bc90-04acd090be73_the-new-p.jpg",
+      "PackagePath": "staticwebassets\\images\\77555154-673a-44ac-bc90-04acd090be73_the-new-p.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\7815f78d-dae9-4681-bdb3-79dd15164ebc_IMG-20240419-WA0010.jpg",
+      "PackagePath": "staticwebassets\\images\\7815f78d-dae9-4681-bdb3-79dd15164ebc_IMG-20240419-WA0010.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\7afec21a-8de0-47f0-bb2d-29b754c92430_IMG-20240419-WA0014.jpg",
+      "PackagePath": "staticwebassets\\images\\7afec21a-8de0-47f0-bb2d-29b754c92430_IMG-20240419-WA0014.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\7b20762a-4575-4afe-a11e-5c9baedd5c93_the-blue-restaurant-6.jpg",
+      "PackagePath": "staticwebassets\\images\\7b20762a-4575-4afe-a11e-5c9baedd5c93_the-blue-restaurant-6.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\7e187475-9500-4cfa-be71-df6ae3a3807c_la-zisa4.jpg",
+      "PackagePath": "staticwebassets\\images\\7e187475-9500-4cfa-be71-df6ae3a3807c_la-zisa4.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\83eb3d7e-6e4b-44d8-9559-78877e681c47_lobby-lounge.jpg",
+      "PackagePath": "staticwebassets\\images\\83eb3d7e-6e4b-44d8-9559-78877e681c47_lobby-lounge.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\845ffb7b-d9b1-4a00-9f7d-b824a566b9f6_IMG-20240419-WA0021.jpg",
+      "PackagePath": "staticwebassets\\images\\845ffb7b-d9b1-4a00-9f7d-b824a566b9f6_IMG-20240419-WA0021.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\87732bf7-82e0-4c5a-bd8f-1f4a4e3c7053_enjoy-your-breakfast.jpg",
+      "PackagePath": "staticwebassets\\images\\87732bf7-82e0-4c5a-bd8f-1f4a4e3c7053_enjoy-your-breakfast.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\89a49ea5-4ede-4c84-9eb3-382a3c72b028_IMG-20240419-WA0020.jpg",
+      "PackagePath": "staticwebassets\\images\\89a49ea5-4ede-4c84-9eb3-382a3c72b028_IMG-20240419-WA0020.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\8ad94f48-991f-4b95-9480-094b5ab3d00e_enjoy-food-drinks-more (1).jpg",
+      "PackagePath": "staticwebassets\\images\\8ad94f48-991f-4b95-9480-094b5ab3d00e_enjoy-food-drinks-more (1).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\8db04cda-6be5-411c-af1c-4d35147194db_coffee-bean-tea-leaf.jpg",
+      "PackagePath": "staticwebassets\\images\\8db04cda-6be5-411c-af1c-4d35147194db_coffee-bean-tea-leaf.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\8dfb6c42-95a1-4e6a-8df1-3ab185cb4ec5_img-20181024-222041-largejpg.jpg",
+      "PackagePath": "staticwebassets\\images\\8dfb6c42-95a1-4e6a-8df1-3ab185cb4ec5_img-20181024-222041-largejpg.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\8e7dfcfa-6b58-4221-9903-f591cfdeb074_caption.jpg",
+      "PackagePath": "staticwebassets\\images\\8e7dfcfa-6b58-4221-9903-f591cfdeb074_caption.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\8fd91d1f-81ab-49f5-8712-4d96677656fe_fishawy-s-coffee-shop.jpg",
+      "PackagePath": "staticwebassets\\images\\8fd91d1f-81ab-49f5-8712-4d96677656fe_fishawy-s-coffee-shop.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\90e19bae-c95e-46c7-95af-7cf1adf7bdcf_enjoy-dining-drinking.jpg",
+      "PackagePath": "staticwebassets\\images\\90e19bae-c95e-46c7-95af-7cf1adf7bdcf_enjoy-dining-drinking.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\920e6c5c-6621-424c-9fe3-684d6977199e_IMG-20240419-WA0010.jpg",
+      "PackagePath": "staticwebassets\\images\\920e6c5c-6621-424c-9fe3-684d6977199e_IMG-20240419-WA0010.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\93dff94c-c87b-4094-9e70-f14883e8870f_IMG-20240419-WA0010.jpg",
+      "PackagePath": "staticwebassets\\images\\93dff94c-c87b-4094-9e70-f14883e8870f_IMG-20240419-WA0010.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\9a5717cd-77b4-4058-b84f-6d431e4cf27a_el-fishawi.jpg",
+      "PackagePath": "staticwebassets\\images\\9a5717cd-77b4-4058-b84f-6d431e4cf27a_el-fishawi.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\9e2d5800-d0c6-46f9-9b39-17b559d27b6c_IMG-20240419-WA0012.jpg",
+      "PackagePath": "staticwebassets\\images\\9e2d5800-d0c6-46f9-9b39-17b559d27b6c_IMG-20240419-WA0012.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\9ef11ce9-9e17-4ec2-b408-1dfa5a6d8c97_haunted-escape-room-egypt.jpg",
+      "PackagePath": "staticwebassets\\images\\9ef11ce9-9e17-4ec2-b408-1dfa5a6d8c97_haunted-escape-room-egypt.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\a1f7db34-2fad-4a32-977c-443d19af9fed_el-fishawi (1).jpg",
+      "PackagePath": "staticwebassets\\images\\a1f7db34-2fad-4a32-977c-443d19af9fed_el-fishawi (1).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\a32b3f9d-b7e2-4907-8827-78e3c2ec22ee_haunted-escape-photo.jpg",
+      "PackagePath": "staticwebassets\\images\\a32b3f9d-b7e2-4907-8827-78e3c2ec22ee_haunted-escape-photo.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\a61ef6c4-7ef3-4f15-b6f5-38c5e9970096_IMG-20240419-WA0012.jpg",
+      "PackagePath": "staticwebassets\\images\\a61ef6c4-7ef3-4f15-b6f5-38c5e9970096_IMG-20240419-WA0012.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\a6db47b2-8fad-47de-af87-75e5278e2ec2_scores-bar-upper-level.jpg",
+      "PackagePath": "staticwebassets\\images\\a6db47b2-8fad-47de-af87-75e5278e2ec2_scores-bar-upper-level.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\a77c6610-2657-4ef3-b371-002493e926fb_view.jpg",
+      "PackagePath": "staticwebassets\\images\\a77c6610-2657-4ef3-b371-002493e926fb_view.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\b754466d-b08f-4b4e-b0e7-1fe519074bb9_IMG_5051.jpg",
+      "PackagePath": "staticwebassets\\images\\b754466d-b08f-4b4e-b0e7-1fe519074bb9_IMG_5051.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\b7d358eb-573e-457d-bc12-048c11c3bfba_al-khal-egyptian-restaurant (1).jpg",
+      "PackagePath": "staticwebassets\\images\\b7d358eb-573e-457d-bc12-048c11c3bfba_al-khal-egyptian-restaurant (1).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\b84167fa-f2b9-4615-b013-783a730b03b9_enjoy-dining-drinking.jpg",
+      "PackagePath": "staticwebassets\\images\\b84167fa-f2b9-4615-b013-783a730b03b9_enjoy-dining-drinking.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\b8cf41c7-8055-4f5e-92df-e70c35970e6a_the-blue-restaurant-4.jpg",
+      "PackagePath": "staticwebassets\\images\\b8cf41c7-8055-4f5e-92df-e70c35970e6a_the-blue-restaurant-4.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\bb983f4f-a095-4c19-b52f-409274cca5f1_getlstd-property-photo.jpg",
+      "PackagePath": "staticwebassets\\images\\bb983f4f-a095-4c19-b52f-409274cca5f1_getlstd-property-photo.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\bd5e7f51-c6b3-47f7-b61d-d56c27555942_al-dabke-lebanese-restaurant.jpg",
+      "PackagePath": "staticwebassets\\images\\bd5e7f51-c6b3-47f7-b61d-d56c27555942_al-dabke-lebanese-restaurant.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\bdd3f2f8-47ae-46fe-a98f-d0567e440f50_traditional-lebanese.jpg",
+      "PackagePath": "staticwebassets\\images\\bdd3f2f8-47ae-46fe-a98f-d0567e440f50_traditional-lebanese.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\c13ca7eb-7b38-42ca-98e3-9235c74dbb33_photo0jpg.jpg",
+      "PackagePath": "staticwebassets\\images\\c13ca7eb-7b38-42ca-98e3-9235c74dbb33_photo0jpg.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\c15585d3-b9a3-4fca-b52e-f3bebaa52913_enjoy-a-delightful-atmosphere.jpg",
+      "PackagePath": "staticwebassets\\images\\c15585d3-b9a3-4fca-b52e-f3bebaa52913_enjoy-a-delightful-atmosphere.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\c2aee2ca-51e5-4274-a862-9a26186c3c76_enjoy-food-drinks-more.jpg",
+      "PackagePath": "staticwebassets\\images\\c2aee2ca-51e5-4274-a862-9a26186c3c76_enjoy-food-drinks-more.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\c34f5e1b-a403-4071-b156-3e692b15041f_IMG-20240419-WA0010.jpg",
+      "PackagePath": "staticwebassets\\images\\c34f5e1b-a403-4071-b156-3e692b15041f_IMG-20240419-WA0010.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\c4845c99-0c17-4e36-87de-fc8012ae29d6_IMG-20240419-WA0016.jpg",
+      "PackagePath": "staticwebassets\\images\\c4845c99-0c17-4e36-87de-fc8012ae29d6_IMG-20240419-WA0016.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\c51c1079-54e5-4f36-8cdc-b5d83cfe080f_caption (4).jpg",
+      "PackagePath": "staticwebassets\\images\\c51c1079-54e5-4f36-8cdc-b5d83cfe080f_caption (4).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\c531a59f-9bdb-49e8-ae5b-df6074939fed_IMG-20240419-WA0010.jpg",
+      "PackagePath": "staticwebassets\\images\\c531a59f-9bdb-49e8-ae5b-df6074939fed_IMG-20240419-WA0010.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\c5e7c23e-6f85-4ced-b3e7-1e7d76628797_IMG-20240419-WA0013.jpg",
+      "PackagePath": "staticwebassets\\images\\c5e7c23e-6f85-4ced-b3e7-1e7d76628797_IMG-20240419-WA0013.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\c75fa589-92d2-4a71-a727-deb3407f6c17_al-dabke-authentic-atmosphere.jpg",
+      "PackagePath": "staticwebassets\\images\\c75fa589-92d2-4a71-a727-deb3407f6c17_al-dabke-authentic-atmosphere.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\ccb3fb22-c611-45f2-9fdc-bfe83cfa40a7_enjoy-dining-drinking.jpg",
+      "PackagePath": "staticwebassets\\images\\ccb3fb22-c611-45f2-9fdc-bfe83cfa40a7_enjoy-dining-drinking.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\ce3d31c6-3ad8-4329-9b1b-10319d2df352_dine-in-style-on-the.jpg",
+      "PackagePath": "staticwebassets\\images\\ce3d31c6-3ad8-4329-9b1b-10319d2df352_dine-in-style-on-the.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\ce6741c7-e982-4ae6-b244-c0143e329187_IMG-20240419-WA0011.jpg",
+      "PackagePath": "staticwebassets\\images\\ce6741c7-e982-4ae6-b244-c0143e329187_IMG-20240419-WA0011.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\d06e4573-ae03-420b-a311-c9de1a88ed63_IMG-20240419-WA0010.jpg",
+      "PackagePath": "staticwebassets\\images\\d06e4573-ae03-420b-a311-c9de1a88ed63_IMG-20240419-WA0010.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\d181f2ca-e412-4f45-a16c-e53e42ac63f9_relaxed-yet-elegant-seating.jpg",
+      "PackagePath": "staticwebassets\\images\\d181f2ca-e412-4f45-a16c-e53e42ac63f9_relaxed-yet-elegant-seating.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\d24def3a-40a8-4307-acc9-0f5c25b8e4f2_IMG-20240419-WA0011.jpg",
+      "PackagePath": "staticwebassets\\images\\d24def3a-40a8-4307-acc9-0f5c25b8e4f2_IMG-20240419-WA0011.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\d4693fdf-f962-4b66-8d3d-61d31f950d04_enjoy-food-drinks-more.jpg",
+      "PackagePath": "staticwebassets\\images\\d4693fdf-f962-4b66-8d3d-61d31f950d04_enjoy-food-drinks-more.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\d4bd6412-3083-4367-9c98-7e90fd11adec_now-you-can-enjoy-the.jpg",
+      "PackagePath": "staticwebassets\\images\\d4bd6412-3083-4367-9c98-7e90fd11adec_now-you-can-enjoy-the.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\d7814c96-7e34-44e8-a980-72be8face41b_getlstd-property-photo.jpg",
+      "PackagePath": "staticwebassets\\images\\d7814c96-7e34-44e8-a980-72be8face41b_getlstd-property-photo.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\d7a638b7-ecac-4be6-922a-38c7136c67e7_view.jpg",
+      "PackagePath": "staticwebassets\\images\\d7a638b7-ecac-4be6-922a-38c7136c67e7_view.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\d846aeb2-dd0f-4877-bf34-b2f9fa1f7a62_photo0jpg.jpg",
+      "PackagePath": "staticwebassets\\images\\d846aeb2-dd0f-4877-bf34-b2f9fa1f7a62_photo0jpg.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\dcc9fb59-1084-4ed5-b543-d5da11d47f50_caption.jpg",
+      "PackagePath": "staticwebassets\\images\\dcc9fb59-1084-4ed5-b543-d5da11d47f50_caption.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\e08e8c57-cbad-4ca3-ba32-7b496d673dc8_enjoy-food-drinks-more.jpg",
+      "PackagePath": "staticwebassets\\images\\e08e8c57-cbad-4ca3-ba32-7b496d673dc8_enjoy-food-drinks-more.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\e18f3f2a-2168-4260-a5b3-d40f3e53a53b_IMG-20240419-WA0024.jpg",
+      "PackagePath": "staticwebassets\\images\\e18f3f2a-2168-4260-a5b3-d40f3e53a53b_IMG-20240419-WA0024.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\e34c7ec5-eb44-4dd2-9032-8f7d4e44afac_la-zisa5.jpg",
+      "PackagePath": "staticwebassets\\images\\e34c7ec5-eb44-4dd2-9032-8f7d4e44afac_la-zisa5.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\e5329091-c548-4a54-b288-16938d15a3d0_scores-bar.jpg",
+      "PackagePath": "staticwebassets\\images\\e5329091-c548-4a54-b288-16938d15a3d0_scores-bar.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\e7a4a52c-0de0-40b5-a387-73153a561566_enjoy-food-drinks-more.jpg",
+      "PackagePath": "staticwebassets\\images\\e7a4a52c-0de0-40b5-a387-73153a561566_enjoy-food-drinks-more.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\e8a8936a-f156-4c30-a3ad-b50c29d30a5a_al-dabke-restaurant.jpg",
+      "PackagePath": "staticwebassets\\images\\e8a8936a-f156-4c30-a3ad-b50c29d30a5a_al-dabke-restaurant.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\eaa55ed0-da9b-4bd9-92c6-e566c9077767_caption (6).jpg",
+      "PackagePath": "staticwebassets\\images\\eaa55ed0-da9b-4bd9-92c6-e566c9077767_caption (6).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\edd36041-7b79-4032-911b-a850dbcf2003_photo0jpg.jpg",
+      "PackagePath": "staticwebassets\\images\\edd36041-7b79-4032-911b-a850dbcf2003_photo0jpg.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\eff9e54a-9b1f-4a83-958a-dc8e1e481a4d_caption (5).jpg",
+      "PackagePath": "staticwebassets\\images\\eff9e54a-9b1f-4a83-958a-dc8e1e481a4d_caption (5).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\f0163e4b-7a21-495e-b77d-5250c7c4c630_IMG-20240419-WA0015.jpg",
+      "PackagePath": "staticwebassets\\images\\f0163e4b-7a21-495e-b77d-5250c7c4c630_IMG-20240419-WA0015.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\f021f96b-a556-4890-a9a6-1f24b4767113_IMG-20240419-WA0016.jpg",
+      "PackagePath": "staticwebassets\\images\\f021f96b-a556-4890-a9a6-1f24b4767113_IMG-20240419-WA0016.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\f2a5272a-9a5e-4b60-890e-c5ba46a10563_caption.jpg",
+      "PackagePath": "staticwebassets\\images\\f2a5272a-9a5e-4b60-890e-c5ba46a10563_caption.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\f545473f-15bd-4c85-be46-921167d5bcfd_IMG-20240419-WA0011.jpg",
+      "PackagePath": "staticwebassets\\images\\f545473f-15bd-4c85-be46-921167d5bcfd_IMG-20240419-WA0011.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\f575577d-69cd-449c-9556-72f5e9d861ff_al-dabke-lebanese-restaurant (2).jpg",
+      "PackagePath": "staticwebassets\\images\\f575577d-69cd-449c-9556-72f5e9d861ff_al-dabke-lebanese-restaurant (2).jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\feb07fd1-4664-4bee-b829-9adcdac09b78_IMG-20240419-WA0014.jpg",
+      "PackagePath": "staticwebassets\\images\\feb07fd1-4664-4bee-b829-9adcdac09b78_IMG-20240419-WA0014.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\images\\ff3d59ad-6247-4182-8935-27bd4b7c2b0f_IMG-20240419-WA0010.jpg",
+      "PackagePath": "staticwebassets\\images\\ff3d59ad-6247-4182-8935-27bd4b7c2b0f_IMG-20240419-WA0010.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\amin.png",
+      "PackagePath": "staticwebassets\\img\\amin.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\banner\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\banner\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-2.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\blog\\details\\details-author.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\details\\details-author.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\blog\\details\\details-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\details\\details-hero.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\blog\\details\\details-pic.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\details\\details-pic.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\blog\\sidebar\\sr-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\sidebar\\sr-1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\blog\\sidebar\\sr-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\sidebar\\sr-2.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\blog\\sidebar\\sr-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\sidebar\\sr-3.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\boda.jpg",
+      "PackagePath": "staticwebassets\\img\\boda.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\cart\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\img\\cart\\cart-1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\cart\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\img\\cart\\cart-2.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\cart\\cart-3.jpg",
+      "PackagePath": "staticwebassets\\img\\cart\\cart-3.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\categories\\cat1.jpg",
+      "PackagePath": "staticwebassets\\img\\categories\\cat1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\featured\\feature-1.jpg",
+      "PackagePath": "staticwebassets\\img\\featured\\feature-1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\featured\\feature-2.jpg",
+      "PackagePath": "staticwebassets\\img\\featured\\feature-2.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\featured\\feature-3.jpg",
+      "PackagePath": "staticwebassets\\img\\featured\\feature-3.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\featured\\feature-4.jpg",
+      "PackagePath": "staticwebassets\\img\\featured\\feature-4.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\featured\\feature-5.jpg",
+      "PackagePath": "staticwebassets\\img\\featured\\feature-5.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\featured\\feature-6.jpg",
+      "PackagePath": "staticwebassets\\img\\featured\\feature-6.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\featured\\feature-7.jpg",
+      "PackagePath": "staticwebassets\\img\\featured\\feature-7.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\featured\\feature-8.jpg",
+      "PackagePath": "staticwebassets\\img\\featured\\feature-8.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\find.png",
+      "PackagePath": "staticwebassets\\img\\find.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\hero\\banner.jpg",
+      "PackagePath": "staticwebassets\\img\\hero\\banner.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\hover.jpg",
+      "PackagePath": "staticwebassets\\img\\hover.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\khaled.png",
+      "PackagePath": "staticwebassets\\img\\khaled.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\language.png",
+      "PackagePath": "staticwebassets\\img\\language.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\latest-product\\lp-1.jpg",
+      "PackagePath": "staticwebassets\\img\\latest-product\\lp-1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\latest-product\\lp-2.jpg",
+      "PackagePath": "staticwebassets\\img\\latest-product\\lp-2.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\latest-product\\lp-3.jpg",
+      "PackagePath": "staticwebassets\\img\\latest-product\\lp-3.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\location.png",
+      "PackagePath": "staticwebassets\\img\\location.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\login.png",
+      "PackagePath": "staticwebassets\\img\\login.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\mostafa.png",
+      "PackagePath": "staticwebassets\\img\\mostafa.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\payment-item.png",
+      "PackagePath": "staticwebassets\\img\\payment-item.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\details\\product-details-1.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\details\\product-details-1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\details\\product-details-2.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\details\\product-details-2.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\details\\product-details-3.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\details\\product-details-3.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\details\\product-details-4.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\details\\product-details-4.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\details\\product-details-5.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\details\\product-details-5.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\details\\thumb-1.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\details\\thumb-1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\details\\thumb-2.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\details\\thumb-2.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\details\\thumb-3.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\details\\thumb-3.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\details\\thumb-4.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\details\\thumb-4.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\discount\\pd-1.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\discount\\pd-1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\discount\\pd-2.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\discount\\pd-2.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\discount\\pd-3.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\discount\\pd-3.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\discount\\pd-4.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\discount\\pd-4.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\discount\\pd-5.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\discount\\pd-5.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\discount\\pd-6.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\discount\\pd-6.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\product-1.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\product-10.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-10.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\product-11.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-11.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\product-12.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-12.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\product-2.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-2.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\product-3.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-3.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\product-4.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-4.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\product-5.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-5.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\product-6.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-6.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\product-7.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-7.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\product-8.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-8.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\product\\product-9.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-9.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\tophome.png",
+      "PackagePath": "staticwebassets\\img\\tophome.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\img\\uploade.png",
+      "PackagePath": "staticwebassets\\img\\uploade.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\js\\mixitup.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\navbar\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\navbar\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\navbar\\css\\style.css",
+      "PackagePath": "staticwebassets\\navbar\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\navbar\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\navbar\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\navbar\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\navbar\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\navbar\\js\\main.js",
+      "PackagePath": "staticwebassets\\navbar\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\navbar\\logo-removebg-preview.png",
+      "PackagePath": "staticwebassets\\navbar\\logo-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\navbar\\logo.jpeg",
+      "PackagePath": "staticwebassets\\navbar\\logo.jpeg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offernew\\Screenshot 2024-05-11 134713.jpg",
+      "PackagePath": "staticwebassets\\offernew\\Screenshot 2024-05-11 134713.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offernew\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\offernew\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offernew\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\offernew\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offernew\\new-offer.png",
+      "PackagePath": "staticwebassets\\offernew\\new-offer.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offernew\\offer.png",
+      "PackagePath": "staticwebassets\\offernew\\offer.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offernew\\style.css",
+      "PackagePath": "staticwebassets\\offernew\\style.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\offers\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\offers\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\offers\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\css\\style.css",
+      "PackagePath": "staticwebassets\\offers\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\offers\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\offers\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\offers\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\offers\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\offers\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\offers\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\offers\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\offers\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\offers\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\offers\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\offers\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\offers\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\offers\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\offers\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\js\\main.js",
+      "PackagePath": "staticwebassets\\offers\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\offers\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\offers\\r1.jpg",
+      "PackagePath": "staticwebassets\\offers\\r1.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\pacdetails\\animal.jpg",
+      "PackagePath": "staticwebassets\\pacdetails\\animal.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\pacdetails\\facebook.png",
+      "PackagePath": "staticwebassets\\pacdetails\\facebook.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\pacdetails\\google-maps.png",
+      "PackagePath": "staticwebassets\\pacdetails\\google-maps.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\pacdetails\\package_post_details.css",
+      "PackagePath": "staticwebassets\\pacdetails\\package_post_details.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\postdetails\\animal.jpg",
+      "PackagePath": "staticwebassets\\postdetails\\animal.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\postdetails\\details.css",
+      "PackagePath": "staticwebassets\\postdetails\\details.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\postdetails\\map.png",
+      "PackagePath": "staticwebassets\\postdetails\\map.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\profile\\Cover.jpg",
+      "PackagePath": "staticwebassets\\profile\\Cover.jpg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\profile\\style.css",
+      "PackagePath": "staticwebassets\\profile\\style.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_base.scss",
+      "PackagePath": "staticwebassets\\sass\\_base.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_blog-details.scss",
+      "PackagePath": "staticwebassets\\sass\\_blog-details.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_blog-sidebar.scss",
+      "PackagePath": "staticwebassets\\sass\\_blog-sidebar.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_blog.scss",
+      "PackagePath": "staticwebassets\\sass\\_blog.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\sass\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_checkout.scss",
+      "PackagePath": "staticwebassets\\sass\\_checkout.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_contact.scss",
+      "PackagePath": "staticwebassets\\sass\\_contact.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_footer.scss",
+      "PackagePath": "staticwebassets\\sass\\_footer.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_header.scss",
+      "PackagePath": "staticwebassets\\sass\\_header.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_hero.scss",
+      "PackagePath": "staticwebassets\\sass\\_hero.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_home-page.scss",
+      "PackagePath": "staticwebassets\\sass\\_home-page.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_mixins.scss",
+      "PackagePath": "staticwebassets\\sass\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_responsive.scss",
+      "PackagePath": "staticwebassets\\sass\\_responsive.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_shop-details.scss",
+      "PackagePath": "staticwebassets\\sass\\_shop-details.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_shop-grid.scss",
+      "PackagePath": "staticwebassets\\sass\\_shop-grid.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_shoping-cart.scss",
+      "PackagePath": "staticwebassets\\sass\\_shoping-cart.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\sass\\_sidebar.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\_variable.scss",
+      "PackagePath": "staticwebassets\\sass\\_variable.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\sass\\style.scss",
+      "PackagePath": "staticwebassets\\sass\\style.scss"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\team\\ahamed.jpeg",
+      "PackagePath": "staticwebassets\\team\\ahamed.jpeg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\team\\amin.jpeg",
+      "PackagePath": "staticwebassets\\team\\amin.jpeg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\team\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\team\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\team\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\team\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\team\\linkedin.png",
+      "PackagePath": "staticwebassets\\team\\linkedin.png"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\team\\mo (2).jpeg",
+      "PackagePath": "staticwebassets\\team\\mo (2).jpeg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\team\\mostafa.jpeg",
+      "PackagePath": "staticwebassets\\team\\mostafa.jpeg"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\team\\style.css",
+      "PackagePath": "staticwebassets\\team\\style.css"
+    },
+    {
+      "Id": "D:\\Back -End courses\\My Project CV and GitHup\\Remood Places\\GP-Project\\Remood_Place\\wwwroot\\team\\t.jpg",
+      "PackagePath": "staticwebassets\\team\\t.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Remood_Place.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Remood_Place.props",
+      "PackagePath": "build\\Remood_Place.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Remood_Place.props",
+      "PackagePath": "buildMultiTargeting\\Remood_Place.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Remood_Place.props",
+      "PackagePath": "buildTransitive\\Remood_Place.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

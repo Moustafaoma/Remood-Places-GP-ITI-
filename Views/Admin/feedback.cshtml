@@ -1,0 +1,117 @@
+﻿@model IEnumerable<Remood_Place.Models.Contact>
+
+@{
+    ViewData["Title"] = "feedback";
+    Layout = "_headerfooter";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Review Package Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/dashbord/style.css">
+    <style>
+        /* Custom styles */
+        .table-responsive {
+            overflow-x: auto;
+        }
+
+        .table-wrapper {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .table-title {
+            padding-bottom: 15px;
+            border-bottom: 1px solid #dee2e6;
+            margin-bottom: 20px;
+        }
+
+            .table-title h2 {
+                margin: 5px 0 0;
+                font-size: 24px;
+            }
+
+        .table-bordered th, .table-bordered td {
+            border: 1px solid #dee2e6;
+            padding: 8px;
+            vertical-align: middle;
+        }
+
+        .table-bordered th {
+            background: #f8f9fa;
+            color: #000;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .table-bordered tbody tr:hover {
+            background: #f9f9f9;
+        }
+
+        .btn-submit {
+            width: 100px;
+            height: 40px;
+            font-size: 14px;
+            border-radius: 20px;
+        }
+
+            .btn-submit span {
+                padding: 0 5px;
+            }
+
+        .btn-warning {
+            background-color: #ffc107 !important;
+            border-color: #ffc107 !important;
+        }
+
+            .btn-warning:hover {
+                background-color: #ffca2c !important;
+                border-color: #ffca2c !important;
+            }
+    </style>
+</head>
+<body>
+    <div class="container-lg-12">
+        <div class="table-responsive">
+            <div class="table-wrapper">
+                <div class="table-title">
+                    <div class="row">
+                        <div class="col-sm-8"><h2>FeedBack  Dashboard</h2></div>
+                    </div>
+                </div>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Descripthon</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td>@item.Email</td>
+                                <td style="word-wrap: break-word;" colspan="4">@item.Descripthon</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

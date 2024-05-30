@@ -1,0 +1,39 @@
+﻿@model Remood_Place.Models.PackageFavourit
+
+@{
+    ViewData["Title"] = "CreateFavouritepac";
+    var packageid = ViewBag.id;
+
+}
+
+<h1>CreateFavouritepac</h1>
+
+<h4>PackageFavourit</h4>
+<hr />
+@using (Html.BeginForm("CreateFavouritepackage", "Package", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="modal-body" style="max-height: 400px; overflow-y: auto;">
+        <div class="mb-3">
+            <input type="number" hidden class="form-control" name="Packageid" value="@packageid">
+        </div>
+    </div>
+
+    <div class="modal-footer" style="justify-content: space-between;">
+        <button type="submit" class="btn btn-primary submit m-0 p-0 dep rounded-pill" style="width: 100px; height: 50px;">
+            <label class="mb-0 mx-auto ms-2">Add</label>
+            <i class="fa-solid fa-check"></i>
+        </button>
+        <button type="button" class="btn btn-danger bg-danger p-0 rounded-pill" style="width: 100px; height: 50px;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <label class="mb-0 mx-auto ms-2">Cansel</label>
+            <i class="fa-solid fa-xmark "></i>
+        </button>
+    </div>
+}
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

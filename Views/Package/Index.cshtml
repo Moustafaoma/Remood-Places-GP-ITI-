@@ -1,0 +1,321 @@
+﻿@model IEnumerable<Remood_Place.Models.Package>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_headerfooter";
+    var search = ViewBag.filter;
+    List<int> idpackages = ViewBag.idpackages;
+    List<string> idusers = ViewBag.idusers;
+    string userId = ViewBag.userId;
+    List<int> packagesfavuser = ViewBag.packagesfavuser;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- You may need to include Font Awesome if you're using its icons -->
+    <style>
+
+        .form-control.col-12.w-100 {
+            width: 100%;
+        }
+
+        .button_back {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #4747debf;
+            border: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+            cursor: pointer;
+            transition-duration: 0.3s;
+            overflow: hidden;
+        }
+
+        .svgIcon {
+            transition-duration: 0.3s;
+        }
+
+            .svgIcon path {
+                fill: white;
+            }
+
+        .button_back:hover {
+            width: 140px;
+            border-radius: 50px;
+            transition-duration: 0.3s;
+            background-color: rgb(249 0 0 / 79%);
+            align-items: center;
+        }
+
+            .button_back:hover .svgIcon {
+                /* width: 20px; */
+                transition-duration: 0.3s;
+                transform: translateY(-200%);
+            }
+
+        .button_back::before {
+            position: absolute;
+            bottom: -20px;
+            content: "Create Package";
+            color: white;
+            /* transition-duration: .3s; */
+            font-size: 0px;
+        }
+
+        .button_back:hover::before {
+            font-size: 13px;
+            opacity: 1;
+            bottom: unset;
+            /* transform: translateY(-30px); */
+            transition-duration: 0.3s;
+        }
+
+        * {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .description-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            word-wrap: break-word;
+        }
+
+        @@media (max-width: 990px) {
+            #carouselContainer {
+                margin-top: 400px !important;
+            }
+        }
+
+        .header__menu {
+            /* أي تعديلات أخرى تريدها هنا */
+        }
+
+        .navbar-nav {
+            display: flex;
+            flex-wrap: wrap; /* تمكين الانتقال للسطر التالي إذا كانت العناصر أكثر مما يمكنها أن تتناسب في السطر الحالي */
+            justify-content: center; /* توسيط العناصر */
+        }
+
+        .nav-item {
+            width: auto; /* حدد عرضًا تلقائيًا لكل عنصر */
+            margin: 0 10px; /* هام: قم بتعيين هوامش للعناصر لتفادي التشابك بينها */
+        }
+
+        .nav-link {
+            /* أي تعديلات أخرى تريدها هنا */
+        }
+
+
+        #btn_package {
+            color: #000;
+            background-color: #fff;
+            border: none;
+            border-radius: 45px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            outline: none;
+        }
+
+            #btn_package:hover {
+                background-color: #FF5F00;
+                box-shadow: 0px 10px 10px black;
+                color: #fff;
+                transform: translateY(-3px);
+            }
+
+            #btn_package:active {
+                transform: translateY(-1px);
+            }
+
+        #card-data {
+            box-shadow: 0px 20px 25px rgba(10, 49, 75, 0.445);
+        }
+
+        .card:hover {
+            box-shadow: 0px 0px 20px #007bff;
+            transform: scale(1.02);
+        }
+
+        .card {
+            transition: box-shadow 1s ease 0s, transform 1s ease 0s; /* تأثير تدريجي على خاصيتي الظل والتحويل على مدى 2 ثانية */
+        }
+
+        /* .packageBody {
+            background-image: url('/createpac/new.jpeg');
+            background-repeat: repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100vw; /* عرض 100% من نافذة العرض */
+            height: 100vh; /* ارتفاع 100% من نافذة العرض */
+        } */
+
+
+    </style>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+</head>
+<body class="packageBody">
+    <div class="container mt-5" id="container-div" style="max-width: 90%;/*  background-color: rgba(231, 231, 231, 0.493); */ ">
+        <div class="container-fluid my-3 " style="background-color: #3887BE; border-top-right-radius:15px; border-bottom-left-radius:15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); max-width: 600px; margin: 0 auto;">
+            <h2 class="text-center" style="color: white;">Have A Nice Day</h2>
+        </div>
+
+        <div class="search my-3 row">
+            <div class="col-12">
+                <form action="/Package/Search" method="get" class="input-group">
+                    <input type="search" name="query" class="form-control col-12" placeholder="Search..." aria-label="Search" value="@search">
+                    <button class="btn btn-outline-primary" type="submit">Go</button>
+                </form>
+            </div>
+        </div>
+     
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="container col-lg-4">
+                    <div class="my-3 align-text-center">
+                        <div class="col-lg-12">
+                            <div class="card" style="background-color: #F6F1F1; border: 2px solid #002379; border-radius: 15px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);">
+                                <div class="card-header" style="background-color: #146C94; border-radius: 15px 15px 0 0; font-size: 24px; font-weight: bold; color: white; text-align: left;">
+                                    <h3 class="col-12 mt-2" style="text-align: center; color: white; font-size: 26px; font-weight: bold; text-transform: uppercase; padding-bottom: 5px;">@item.Name</h3>
+                                </div>
+                                <div class="card-body" style="height: 150px;">
+                                    <p class="card-text" style="color: #333;">@(item.Description.Length > 200 ? item.Description.Substring(0, 200) + "..." : item.Description)</p>
+                                </div>
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        @for (var i = 0; i < item.packagePosts.Count; i++)
+                                        {
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="@i" class="@if (i == 0) {
+                                    <text>active</text>
+ }"></li>
+                                        }
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        @foreach (var posts in item.packagePosts)
+                                        {
+                                            <div class="carousel-item @if (posts == item.packagePosts.First()) {
+                                    <text>active</text>
+ }">
+                                                <img src="@posts.Post.ImagePaths[0]" style="height: 250px !important; width: 100%;" class="d-block w-100" alt="...">
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                                <br />
+                                @if (User.IsInRole("User"))
+                                {
+                                    <div class="container-fluid row">
+                                        <form class="col-6" action="@Url.Action("Details", "Package")" method="get">
+                                            <input type="hidden" name="id" value="@item.ID" />
+                                            <button type="submit" class="col-12 btn btn-primary" id="btn_package">
+                                                See More..
+                                            </button>
+                                        </form>
+                                        <div class="col-6">
+                                            @using (Html.BeginForm("CreateFavouritepackage", "Package", FormMethod.Post, new { enctype = "multipart/form-data", id = "favouriteForm" }))
+                                            {
+                                                <input type="number" hidden name="Packageid" value="@item.ID">
+                                                @if (packagesfavuser.Contains(item.ID))
+                                                {
+                                                    <button type="submit" class="col-12 btn btn-danger">
+                                                        Favourite
+                                                    </button>
+                                                }
+                                                else
+                                                {
+                                                    <button type="submit" class="col-12 btn btn-primary">
+                                                        Favourite
+                                                    </button>
+                                                }
+                                            }
+                                        </div>
+                                    </div>
+                                }
+                                else
+                                {
+
+                                <form class="col-12" action="@Url.Action("Details", "Package")" method="get">
+                                    <input type="hidden" name="id" value="@item.ID" />
+                                    <button type="submit" class="col-12 btn btn-warning" id="btn_package" style="border-radius: 0 0 15px 15px;">
+                                        See More..
+                                    </button>
+                                </form>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            }
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    @if (User.IsInRole("User"))
+    {
+        <a asp-controller="Package" asp-action="Create">
+            <button class="button_back" style="position:fixed !important; bottom:20px !important;right:20px !important;z-index:666 !important">
+                <svg xmlns="http://www.w3.org/2000/svg" style="color:white" width="46" height="46" fill="currentColor" class="bi bi-plus svgIcon" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                </svg>
+            </button>
+
+        </a>
+    }
+    <script>
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.querySelector('form');
+            if (!form) {
+                console.log('Form not found!');
+                return;
+            }
+
+            form.addEventListener('submit', function (event) {
+                event.preventDefault();
+                console.log('Form submission intercepted');
+                var containerDiv = document.getElementById('container-div');
+                if (containerDiv) {
+                    containerDiv.style.marginTop = '15rem';
+                    console.log('Margin changed to 15rem');
+                } else {
+                    console.log('Container div not found!');
+                }
+                this.submit();
+            });
+        });
+    </script>
+
+    <!-- from abdallah design the card package  -->
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>

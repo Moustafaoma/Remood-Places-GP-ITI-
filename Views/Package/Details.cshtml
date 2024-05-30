@@ -1,0 +1,307 @@
+﻿@model Remood_Place.Models.Package
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewData["Title"] = "Details";
+    List<Post> places = ViewBag.posts_package;
+    List<PackageComment> comments = ViewBag.comments;
+    List<PackageFavourit> Favorites = ViewBag.Favorites;
+    var user = ViewBag.user;
+    Layout = "_headerfooter";
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    @* <link rel="stylesheet" href="/pacdetails/package_post_details.css"> *@
+     @* <link rel="stylesheet" href="/detailsdescrapition/css/style.css" type="text/css"> *@
+    <style>
+        .comments-section {
+            padding: 50px 0;
+        }
+
+        .card {
+            border-radius: 10px;
+        }
+
+        .table {
+            background-color: #343a40;
+            border-radius: 10px;
+        }
+
+            .table thead th {
+                color: #ffffff;
+                font-size: 18px;
+            }
+
+            .table tbody td {
+                color: #ffffff;
+            }
+
+        .delete-comment-btn {
+            padding: 5px 10px;
+        }
+
+        .delete-svg-icon {
+            width: 20px;
+            height: 20px;
+            fill: #ffffff;
+        }
+
+        body {
+            background-image: url('/createpac/cc.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif; /* تحديد الخط للنص */
+        }
+
+        .container-fluid.hero-header {
+            padding-top: 100px; /* تعديل المسافة العلوية للعناصر في الهيدر */
+        }
+
+        .col-md-12.mx-auto.p-5 {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 2px solid #ced4da;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card {
+            background-color: #FFFAE6 !important;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .card-title {
+            color: #FF5F00;
+            font-size: 1.5rem; /* تحجيم عنوان الكارد */
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            color: #002379;
+            font-size: 1.1rem; /* تحجيم نص الكارد */
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            color: white;
+            background-color: #FF5F00;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+
+            .btn:hover {
+                background-color: #FF8C00; /* تغيير لون الزر عند التحويم */
+            }
+
+            .btn img {
+                width: 20px; /* تحجيم الصورة داخل الزر */
+                margin-right: 5px; /* تعديل المسافة بين الصورة والنص */
+            }
+
+        .table {
+            background-color: #002379;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+            .table th {
+                color: #FF5F00;
+                font-size: 1.2rem; /* تحجيم عناوين الجدول */
+            }
+
+            .table td {
+                color: white;
+                font-size: 1.1rem; /* تحجيم محتوى الجدول */
+            }
+
+        .testbox {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ced4da;
+        }
+
+            .form-control:focus {
+                outline: none;
+                border-color: #FF5F00;
+                box-shadow: 0 0 5px #FF5F00;
+            }
+
+        .btn-dark {
+            background-color: #FF5F00;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+            .btn-dark:hover {
+                background-color: #FF8C00;
+            }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .card-img-top {
+            width: 100%; /* تعيين عرض الصورة ليمتد على العرض الكامل للكارد */
+            height: 200px; /* تعيين ارتفاع ثابت للصورة */
+            object-fit: cover; /* تجنب التشويش عند تغيير نسبة العرض إلى الارتفاع */
+            border-top-left-radius: 10px; /* تطبيق نفس شكل الانحناءات الزاوية للكارد على الصورة العلوية */
+            border-top-right-radius: 10px;
+        }
+    </style>
+</head>
+<body class="packageBody">
+    <div class="container-fluid py-5 mb-5 hero-header" style="min-height: calc(100vh - 70px); width: 100%; max-width: none; background-image: url(/detailsdescrapition/coverr.jpg); background-color: rgba(255, 255, 255, 0.8); background-size: cover; background-position: center;">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+            <div class="col-md-12 mx-auto p-5" style="background-color: rgba(255, 255, 255, 0.5); border: 2px solid #ced4da; border-radius: 10px;">
+            <h2 class="mb-4" style="color:#FF5F00">@Model.Name</h2>
+            <p class="mb-0" style="font-size: 1.3rem; color: #343a40; line-height: 1.6; word-wrap: break-word;">@Model.Description</p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row m-0 p-0">
+                    @foreach (var item in places)
+                    {
+                <div class="col-12 col-md-4 mb-4">
+                    <button onclick="showpac()" class="w-100 h-100 p-0 border-0">
+                        <a style="text-decoration:none;" asp-controller="Posts" asp-action="Details" asp-route-id="@item.Id">
+                            <div class="card h-100" style="background-color:#FFFAE6;">
+                                <img src="@item.ImagePaths[0]" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="color:#FF5F00">@item.Name</h5>
+                                    <p class="card-text" style="color:#002379;">@item.Bio</p>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-6" style="color:#FF5F00;">Category:</div>
+                                        <div class="col-6" style="color:#002379;">@item.Category</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6" style="color:#FF5F00;">Vips:</div>
+                                        <div class="col-6" style="color:#002379;">@item.Vibs</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <a href="@item.Location" class="btn btn-sm btn-primary"><i class="fas fa-map-marker-alt"></i> Google Maps</a>
+                                            <a href="@item.Fb_Link" class="btn btn-sm btn-primary"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </button>
+                </div>
+                    }
+        </div>
+    </div>
+
+
+    <section class="comments-section">
+        <div class="bg-image">
+            <div class="mask d-flex align-items-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="card bg-dark shadow-2-strong">
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-dark table-borderless mb-0">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Comments</th>
+                                                    <th scope="col"></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in comments)
+                                                {
+                                                    <tr>
+                                                        <td>@item.Commentt</td>
+                                                        <td>
+                                                            @if (item.UserId == user)
+                                                            {
+                                                                <form asp-action="DeleteComment" asp-controller="Package" method="post">
+                                                                    <input type="hidden" name="id" value="@item.Id" />
+                                                                    <button type="submit" class="btn btn-danger delete-comment-btn">
+                                                                        <svg class="delete-svg-icon" viewBox="0 0 448 512">
+                                                                            <path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"></path>
+                                                                        </svg>
+                                                                    </button>
+                                                                </form>
+                                                            }
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    @if (User.IsInRole("User"))
+                    {
+        <div class="testbox d-block " style="z-index:0">
+                            @using (Html.BeginForm("CreateCommentsPackage", "Package", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                            {
+                <div class="mb-3">
+                    <input type="number" hidden class="form-control" name="Packageid" value="@Model.ID">
+                </div>
+                <div class="row d-flex text-center">
+                    <div class="col-1"></div>
+                    <div class="col-9">
+                        <input type="text " class="form-control" name="comment">
+                    </div>
+                    <div class="col-2">
+                        <button type="submit" class="btn btn-dark">
+                            Add Comment
+                        </button>
+                    </div>
+
+
+
+
+                </div>
+                            }
+
+        </div>
+                    }
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

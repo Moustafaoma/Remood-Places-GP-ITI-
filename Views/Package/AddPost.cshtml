@@ -1,0 +1,339 @@
+﻿@model dynamic
+
+@{
+    ViewData["Title"] = "AddPost";
+    var places = new List<Post>();
+    Layout = "_headerfooter";
+    var package = ViewBag.package;
+    var posts = ViewBag.posts;
+    var search = ViewBag.SearchQuery;
+    List<int> ckeck = ViewBag.ckeck;
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/detailsdescrapition/css/style.css" type="text/css">
+    <!-- You may need to include Font Awesome if you're using its icons -->
+    <style>
+        .form-control.col-12.w-100 {
+            width: 100%;
+        }
+
+        .button_back {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #cc7a00;
+            border: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+            cursor: pointer;
+            transition-duration: 0.3s;
+            overflow: hidden;
+        }
+
+        .svgIcon {
+            transition-duration: 0.3s;
+        }
+
+            .svgIcon path {
+                fill: white;
+            }
+
+        .button_back:hover {
+            width: 140px;
+            border-radius: 50px;
+            transition-duration: 0.3s;
+            background-color: rgba(161, 149, 37, 0.712);
+            align-items: center;
+        }
+
+            .button_back:hover .svgIcon {
+                /* width: 20px; */
+                transition-duration: 0.3s;
+                transform: translateY(-200%);
+            }
+
+        .button_back::before {
+            position: absolute;
+            bottom: -20px;
+            content: "Finish Package";
+            color: white;
+            /* transition-duration: .3s; */
+            font-size: 0px;
+        }
+
+        .button_back:hover::before {
+            font-size: 13px;
+            opacity: 1;
+            bottom: unset;
+            /* transform: translateY(-30px); */
+            transition-duration: 0.3s;
+        }
+
+        * {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .description-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            word-wrap: break-word;
+        }
+
+        @@media (max-width: 990px) {
+            #carouselContainer {
+                margin-top: 400px !important;
+            }
+        }
+
+        .header__menu {
+            /* أي تعديلات أخرى تريدها هنا */
+        }
+
+        .navbar-nav {
+            display: flex;
+            flex-wrap: wrap; /* تمكين الانتقال للسطر التالي إذا كانت العناصر أكثر مما يمكنها أن تتناسب في السطر الحالي */
+            justify-content: center; /* توسيط العناصر */
+        }
+
+        .nav-item {
+            width: auto; /* حدد عرضًا تلقائيًا لكل عنصر */
+            margin: 0 10px; /* هام: قم بتعيين هوامش للعناصر لتفادي التشابك بينها */
+        }
+
+        .nav-link {
+            /* أي تعديلات أخرى تريدها هنا */
+        }
+
+
+        #btn_package {
+            /*  padding: 0.8em 2.5em;  // Adjust padding to fit within the card */
+            /*    font-size: 12px;
+                                    text-transform: uppercase; */
+            /* letter-spacing: 2.5px; */
+            /*     font-weight: 500; */
+            color: #000;
+            background-color: #fff;
+            border: none;
+            border-radius: 45px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            outline: none;
+        }
+
+            #btn_package:hover {
+                background-color: rgba(20, 62, 90, 0.4);
+                box-shadow: 0px 15px 20px rgba(10, 49, 75, 0.4);
+                color: #fff;
+                transform: translateY(-3px); /* Adjust the transformation */
+            }
+
+            #btn_package:active {
+                transform: translateY(-1px);
+            }
+
+        #card-data {
+            box-shadow: 0px 20px 25px rgba(10, 49, 75, 0.445); /* ظل صندوقي من الجميع الجوانب */
+        }
+
+        .card:hover {
+            box-shadow: 0px 0px 20px orange; /* زيادة حجم الظل عند التحويم */
+            transform: scale(1.02); /* زيادة حجم الكارت عند التحويم بنسبة 10% */
+        }
+
+        .card {
+            transition: box-shadow 1s ease 0s, transform 1s ease 0s; /* تأثير تدريجي على خاصيتي الظل والتحويل على مدى 2 ثانية */
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+</head>
+<body class="packageBody">
+    <div class="container-fluid py-5 mb-5 hero-header" style="min-height: calc(100vh - 70px); width: 100%; max-width: none; background-image: url(/detailsdescrapition/coverr.jpg); background-color: rgba(255, 255, 255, 0.8); background-size: cover; background-position: center;">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-12 mx-auto p-5" style="background-color: rgba(255, 255, 255, 0.5); border: 2px solid #ced4da; border-radius: 10px;">
+                    <h2 class="mb-4" style="color: #495057;">@package.Name</h2>
+                    <p class="mb-0" style="font-size: 1.3rem; color: #343a40; line-height: 1.6; word-wrap: break-word;">@package.Description</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container mt-5" id="container-div ">
+
+
+        <div class="container-fluid my-3 text-center" style="background-color: rgba(230, 230, 230, 0.8); border-radius: 8px; padding: 15px;">
+            <h2 class="col-12" style="color: #333; font-size: 24px; font-weight: bold;">Make A Good Day</h2>
+        </div>
+
+        <div class="search my-3 row">
+            <div class="col-12">
+                <form action="/Package/Searchposts" method="get" class="input-group">
+                    <input type="number" hidden name="id" class="form-control col-12" value="@package.ID">
+                    <input type="search" name="query" class="form-control col-12" placeholder="Search..." aria-label="Search" value="@search">
+                    <button class="btn btn-outline-primary" type="submit">Go</button>
+                </form>
+            </div>
+        </div>
+
+        @if (ViewBag.scusses != null)
+        {
+        <div class="alert alert-success" role="alert">
+               @ViewBag.scusses
+        </div>
+
+        }
+
+
+        <div class="container">
+            <div class="row">
+                @foreach (var item in posts)
+                {
+                    <div class="col-4">
+                        <div class="card mt-4">
+                            <!-- Image Carousel -->
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    @for (var i = 0; i < item.ImagePaths.Count; i++)
+                                    {
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="@i"></li>
+                                    }
+                                </ol>
+                                <div class="carousel-inner">
+                                    @for (var i = 0; i < item.ImagePaths.Count; i++)
+                                    {
+                                        <div class="carousel-item @(i == 0 ? "active" : "")">
+                                            <img src="@item.ImagePaths[i]" class="d-block w-100" style="height:300px;width:500px;" alt="Image @(i + 1)">
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+
+                            <!-- Card Body -->
+                            <div class="card-body">
+                                <h5 class="card-title d-flex justify-content-between">
+                                    <div class="col-12"><h3>@item.Name</h3></div>
+                                </h5>
+                                <!-- Buttons -->
+                                <div class="text-center mt-3">
+                                    @using (Html.BeginForm("AddPost", "Package", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                                    {
+                                        <div class="modal-body" style="max-height: 400px; overflow-y: auto;">
+                                            <div class="mb-3">
+                                                <input type="number" hidden class="form-control" name="id" value="@ViewBag.id">
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="number" hidden class="form-control" id="idpost" name="id_post" value="@item.Id">
+                                            </div>
+                                        </div>
+
+                                        <button type="submit" class="btn btn-outline-primary submit m-0 p-0 dep rounded-pill" style="width: 100%; height: 50px;">
+                                            <label class="mb-0 mx-auto ms-2">Add</label>
+                                        </button>
+                                    }
+                                    <button type="button" style="width: 100%; height: 50px;" class="btn btn-secondary submit m-0 p-0 dep rounded-pill">
+                                        <a style="text-decoration :none ; color :white" asp-controller="Posts" asp-action="Details" asp-route-id="@item.Id">See more</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <a asp-controller="Package" asp-action="Index">
+        <button class="button_back" style="position:fixed !important; bottom:20px !important;right:20px !important;z-index:666 !important">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check svgIcon" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+            </svg>
+        </button>
+    </a>
+    
+
+
+    <script>
+        // Add event listener to the "Add" button
+        document.querySelectorAll('.btn-warning').forEach(item => {
+            item.addEventListener('click', showSuccessMessage);
+        });
+        document.querySelectorAll('.btn-warning').forEach(function (button) {
+            button.addEventListener('click', function () {
+                // Find the closest parent card and hide it
+                var card = this.closest('.card');
+                if (card) {
+                    card.style.display = 'none';
+                }
+            });
+        });
+
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Select the form more specifically if needed, or ensure this selector matches your form
+            var form = document.querySelector('form');
+            if (!form) {
+                console.log('Form not found!');
+                return;
+            }
+
+            form.addEventListener('submit', function (event) {
+                // Prevent the default form submission behavior
+                event.preventDefault();
+
+                // Log to confirm the event handler is working
+                console.log('Form submission intercepted');
+
+                // Change the margin-top value of the container div
+                var containerDiv = document.getElementById('container-div');
+                if (containerDiv) {
+                    containerDiv.style.marginTop = '15rem';
+                    console.log('Margin changed to 15rem');
+                } else {
+                    console.log('Container div not found!');
+                }
+
+                // Optionally, submit the form programmatically
+                this.submit();
+            });
+        });
+    </script>
+
+
+
+
+    <!-- from abdallah design the card package  -->
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
