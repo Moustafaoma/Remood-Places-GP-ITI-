@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Remood_Place")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20bfafe73dadba9d44f1cdb1b8ccd6af6d64a137")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fed2816b9615e30797529269573933cc9d80aaac")]
 [assembly: System.Reflection.AssemblyProductAttribute("Remood_Place")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Remood_Place")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
